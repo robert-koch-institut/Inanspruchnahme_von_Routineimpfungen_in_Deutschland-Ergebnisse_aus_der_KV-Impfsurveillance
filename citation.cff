@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 type: dataset
 title: >-
-  Inanspruchnahme von Routineimpfungen in Deutschland – Ergebnisse aus der
+  Inanspruchnahme von Routineimpfungen in Deutschland - Ergebnisse aus der
   KV-Impfsurveillance
 abstract: >-
   Dem Robert Koch-Institut (RKI) obliegt die Aufgabe, Daten zur Inanspruchnahme
@@ -81,10 +81,10 @@ keywords:
   - Germany
 message: Cite me!
 url: >-
-  https://robert-koch-institut.github.io/Inanspruchnahme_von_Routineimpfungen_in_Deutschland–Ergebnisse_aus_der_KV-Impfsurveillance
+  https://robert-koch-institut.github.io/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance
 license: CC-BY-4.0
-doi: 10.5281/zenodo.10221306
-version: '2023-12-11T16:16:57+01:00'
+doi: 10.5281/zenodo.10356457
+version: '2023-12-11T16:32:39+01:00'
 authors:
   - family-names: Rieck
     given-names: Thorsten
