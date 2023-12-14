@@ -82,7 +82,7 @@ Neben der Inanspruchnahme der Routineimpfungen zu unterschiedlichen Alterszeitpu
 | Impfung  | Impfstatus | Definition des Impfstatus |
 | -------- | -------- | -------- |
 | `Diphtherie`, `Tetanus`, `Pertussis`, `Haemophilus influenzae Typ b (Hib)`, `Hepatitis B`, `Poliomyelitis`, `Pneumokokken`   | vollständig  | <ul><li>4 Impfstoffdosen gelten als vollständig</li><li>3 Impfstoffdosen gelten als vollständig, sofern der Abstand zwischen Dosis 1 und 2 mind. 8 Wochen beträgt und der Abstand zwischen Dosis 2 und 3 mind. 6 Monate (2+1-Schema)</li></ul> |
-| `Rotavirus` | vollständig  | <ul><li>3 Impfstoffdosen gelten als vollständig</li><li>2 Impfstoffdosen gelten als vollständig (siehe [Rieck et al. (2020)](https://doi.org/10.25646/7027.4))</li></ul>
+| `Rotavirus` | vollständig  | <ul><li>3 Impfstoffdosen gelten als vollständig</li><li>2 Impfstoffdosen gelten als vollständig, sofern</li><ul><li>i) 2. Dosis eine beendete Impfserie kodiert oder</li><li>ii) genau 2 Dosen geimpft wurden und die Abrechnungsziffer der 2. Dosis nicht kodiert, ob die Impfserie beendet oder nicht beendet wurde.(siehe [Rieck et al. (2020)](https://doi.org/10.25646/7027.4))</li></ul>|
 | `Diphtherie`, `Tetanus`, `Pertussis`, `Poliomyelitis`  | 3. Dosis  | 3 oder mehr Impfstoffdosen gelten als 3. Dosis |
 | `Masern`, `Mumps`, `Röteln`, `Varizellen` | 2. Dosis  | 2 oder mehr Impfstoffdosen gelten als 2. Dosis 
 | `Diphtherie`, `Tetanus`, `Pertussis`, `Masern`, `Mumps`, `Röteln`, `Varizellen`, `Meningokokken C` | 1. Dosis  | 1 oder mehr Impfstoffdosen gelten als 1. Dosis |  
