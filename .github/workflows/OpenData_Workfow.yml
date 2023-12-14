@@ -1,4 +1,4 @@
-name: OpenData Workfow for FAIR
+name: OpenData Workfow for FAIR Data
 on:
   push:
     tags:

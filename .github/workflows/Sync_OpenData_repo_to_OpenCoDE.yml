@@ -1,4 +1,4 @@
-name: Sync Github Open Data repository and its metadata to OpenCoDE.de
+name: Manually sync Github Open Data repository and its metadata to OpenCoDE.de
 
 on:
   workflow_dispatch:
