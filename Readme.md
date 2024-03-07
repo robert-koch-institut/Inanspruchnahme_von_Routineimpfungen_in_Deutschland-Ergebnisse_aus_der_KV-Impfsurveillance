@@ -15,7 +15,7 @@ Marcel Feig
 ---
 
 **Zitieren**  
-Rieck T, Feig M, Thielemann I, Steffen A (2023): Inanspruchnahme von Routineimpfungen in Deutschland – Ergebnisse aus der KV-Impfsurveillance, Berlin: Zenodo. DOI: [10.5281/zenodo.10356457](http://doi.org/10.5281/zenodo.10356457).  
+Rieck T, Feig M, Thielemann I, Steffen A (2024): Inanspruchnahme von Routineimpfungen in Deutschland – Ergebnisse aus der KV-Impfsurveillance, Berlin: Zenodo. DOI: [10.5281/zenodo.10792738](http://doi.org/10.5281/zenodo.10792738).  
 
    
 ## Einleitung  
