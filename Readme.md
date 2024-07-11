@@ -5,17 +5,18 @@ Datensatzdokumentation
 Nordufer 20  
 13353 Berlin  
 
-[Thorsten Rieck](https://orcid.org/0000-0002-8799-8744), [Iris Thielemann](https://orcid.org/0000-0002-7652-7090), [Annika Steffen](https://orcid.org/0000-0003-4072-9245)  
-**Fachgebiet  33 |  Impfprävention**  
+<br>
 
-Marcel Feig  
-**Fachgebiet IT 4 | Softwarearchitektur und -entwicklung**  
+[**Thorsten Rieck**](https://orcid.org/0000-0002-8799-8744)&#0185;, **Marcel Feig**&sup2;, [**Lisa Branke**]()&sup1;, [**Annika Steffen**](https://orcid.org/0000-0003-4072-9245)&sup1;  
 
+&emsp;&sup1; [Robert Koch Institute](https://www.rki.de) | [Fachgebiet 33 | Impfprävention](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG33/FG33_node.html)   
+&emsp;&sup2; [Robert Koch Institute](https://www.rki.de) | [Fachgebiet IT 4 | Softwarearchitektur und -entwicklung](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/IT4/it4_node.html)  
+<br>
 
 ---
 
 **Zitieren**  
-Rieck T, Feig M, Thielemann I, Steffen A (2024): Inanspruchnahme von Routineimpfungen in Deutschland – Ergebnisse aus der KV-Impfsurveillance, Berlin: Zenodo. DOI: [10.5281/zenodo.10792738](http://doi.org/10.5281/zenodo.10792738).  
+Rieck T, Feig M, Branke L und Steffen A (2024): Inanspruchnahme von Routineimpfungen in Deutschland – Ergebnisse aus der KV-Impfsurveillance, Berlin: Zenodo. DOI: [10.5281/zenodo.12723466](http://doi.org/10.5281/zenodo.12723466).  
 
    
 ## Einleitung  
@@ -48,7 +49,7 @@ Gemäß [§13 (5) IfSG](https://www.gesetze-im-internet.de/ifsg/__13.html) erhä
 
 #### Datenstand  
 
-Von den KVen werden die quartalsweisen Abrechnungsdaten mit einem Zeitverzug von 2 – 3 Quartalen nach Ende des jeweiligen Abrechnungsquartals zur Auswertung an das RKI übermittelt. Abhängig von der Impfung ist zur Impfquotenberechnung darüber hinaus eine Datenfortschreibung von mindestens einem weiteren Quartal über den Beobachtungszeitraum der Datenanalysen notwendig. Die Notwendigkeit ergibt sich aus den Einschlusskriterien für die Studienpopulation (s. Tabelle 1). Der hier bereitgestellte Datensatz zur Inanspruchnahme von Routineimpfungen wurde aus KV-Abrechnungsdaten berechnet, die bis zum Abrechnungsquartal 2022/1 vorlagen.
+Von den KVen werden die quartalsweisen Abrechnungsdaten mit einem Zeitverzug von 2 – 3 Quartalen nach Ende des jeweiligen Abrechnungsquartals zur Auswertung an das RKI übermittelt. Abhängig von der Impfung ist zur Impfquotenberechnung darüber hinaus eine Datenfortschreibung von mindestens einem weiteren Quartal über den Beobachtungszeitraum der Datenanalysen notwendig. Die Notwendigkeit ergibt sich aus den Einschlusskriterien für die Studienpopulation (s. Tabelle 1). Der hier bereitgestellte Datensatz zur Inanspruchnahme von Routineimpfungen wurde aus KV-Abrechnungsdaten berechnet, die bis zum ersten Abrechnungsquartal 2022 (2022-03-31) vorlagen.
 
 
 #### Studienpopulation  
@@ -65,9 +66,10 @@ Gemäß diesen Kriterien umfasst die Studienpopulation Personen, die sowohl im Z
 
 | Impfung | Erster Kontakt im vertragsärztlichen Bereich (K1) | Zweiter Kontakt im vertragsärztlichen Bereich (K2) | Zeitfenster für Einschluss in die Studienpopulation (Beispiele)\* |
 | ------- | ---------------------------------------------------- | -------------------------------------------------- | ----------------------------------------------------------------- |
-| `Diphtherie`, `Tetanus`, `Pertussis`, `Poliomyelitis`, `Haemophilus influenzae Typ b (Hib)`, `Hepatitis B`, `Masern`, `Mumps`, `Röteln`, `Varizellen`, `Meningokokken C`, `Pneumokokken` | im Alter von 0 – 2 Monaten | 4 Monate angrenzend an Beobachtungs-zeitraum                                 | *Berichtsalter 24 Monate:* <br> K1: Alter 0–2 Monate <br>K2: Alter 24–27 Monate<br><br>*Berichtsalter 36 Monate:*<br>K1: Alter 0–2 Monate<br>K2: Alter 36–39 Monate| 
-| `Rotavirus` | im Alter von 0 – 2 Monaten | rund 3 Monate angrenzend an Beobachtungs-zeitraum | *Berichtsalter 32 Wochen:* <br> K1: Alter 0–2 Monate <br>K2: Alter 7–9 Monate|   
-  
+| `Diphtherie`, `Tetanus`, `Pertussis`, `Poliomyelitis`, `Haemophilus influenzae Typ b (Hib)`, `Hepatitis B`, `Masern`, `Mumps`, `Röteln`, `Varizellen`, `Meningokokken C`, `Pneumokokken` | im Alter 0 bis 2 Monate | 4 Monate angrenzend an Beobachtungs-zeitraum                                 | *Berichtsalter 24 Monate:* <br> K1: Alter 0 bis 2 Monate <br>K2: Alter 24 bis 27 Monate<br><br>*Berichtsalter 36 Monate:*<br>K1: Alter 0 bis 2 Monate<br>K2: Alter 36 bis 39 Monate| 
+| `Rotavirus` | im Alter 0 bis 2 Monate | rund 3 Monate angrenzend an Beobachtungs-zeitraum | *Berichtsalter 32 Wochen:* <br> K1: Alter 0 bis 2 Monate <br>K2: Alter 7 bis 9 Monate|   
+| `Humane Papillomviren` | im Alter von 8 Jahren | 6 Monate angrenzend an Beobachtungs-zeitraum | *Berichtszeitpunkt Dezember 2021* <br>K1: im Alter von 8 Jahren<br> K2: Januar bis Juni 2022|
+   
 \* Zeitfenster der dokumentierten Kontakte im vertragsärztlichen Bereich, die vor bzw. zum Beginn des Beobachtungszeitraums liegen und sich an den Beobachtungszeitraum anschließen.  
 
 ### Datenauswertung  
@@ -81,13 +83,14 @@ Neben der Inanspruchnahme der Routineimpfungen zu unterschiedlichen Alterszeitpu
 
 | Impfung  | Impfstatus | Definition des Impfstatus |
 | -------- | -------- | -------- |
-| `Diphtherie`, `Tetanus`, `Pertussis`, `Haemophilus influenzae Typ b (Hib)`, `Hepatitis B`, `Poliomyelitis`, `Pneumokokken`   | vollständig  | <ul><li>4 Impfstoffdosen gelten als vollständig</li><li>3 Impfstoffdosen gelten als vollständig, sofern der Abstand zwischen Dosis 1 und 2 mind. 8 Wochen beträgt und der Abstand zwischen Dosis 2 und 3 mind. 6 Monate (2+1-Schema)</li></ul> |
-| `Rotavirus` | vollständig  | <ul><li>3 Impfstoffdosen gelten als vollständig</li><li>2 Impfstoffdosen gelten als vollständig, sofern</li><ul><li>i) 2. Dosis eine beendete Impfserie kodiert oder</li><li>ii) genau 2 Dosen geimpft wurden und die Abrechnungsziffer der 2. Dosis nicht kodiert, ob die Impfserie beendet oder nicht beendet wurde.(siehe [Rieck et al. (2020)](https://doi.org/10.25646/7027.4))</li></ul>|
+| `Diphtherie`, `Tetanus`, `Pertussis`, `Haemophilus influenzae Typ b (Hib)`, `Hepatitis B`, `Poliomyelitis`, `Pneumokokken`   | vollständig  |  	&bullet; 4 Impfstoffdosen gelten als vollständig<br>&bullet; 3 Impfstoffdosen gelten als vollständig, sofern der Abstand zwischen Dosis 1 und 2 mind. 8 Wochen beträgt und der Abstand zwischen Dosis 2 und 3 mind. 6 Monate (2+1-Schema)|
+| `Rotavirus` | vollständig  | &bullet; 3 Impfstoffdosen gelten als vollständig<br>&bullet; 2 Impfstoffdosen gelten als vollständig, sofern:<br>&emsp; &bullet; i) 2. Dosis eine beendete Impfserie kodiert oder<br>&emsp; &bullet; ii) genau 2 Dosen geimpft wurden und die Abrechnungsziffer der 2. Dosis nicht kodiert, ob die Impfserie beendet oder nicht beendet wurde.(siehe [Rieck et al. (2020)](https://doi.org/10.25646/7027.4))|   
+| `Humane Papillomviren` | vollständig  | &bullet; 3 Impfstoffdosen gelten als vollständig <br>&bullet; 2 Impfstoffdosen gelten als vollständig, sofern die Impfung im Alter von 9-14 Jahren erfolgt ist und der Abstand zwischen Dosis 1 und 2 mind. 5 Monate beträgt |
 | `Diphtherie`, `Tetanus`, `Pertussis`, `Poliomyelitis`  | 3. Dosis  | 3 oder mehr Impfstoffdosen gelten als 3. Dosis |
 | `Masern`, `Mumps`, `Röteln`, `Varizellen` | 2. Dosis  | 2 oder mehr Impfstoffdosen gelten als 2. Dosis 
-| `Diphtherie`, `Tetanus`, `Pertussis`, `Masern`, `Mumps`, `Röteln`, `Varizellen`, `Meningokokken C` | 1. Dosis  | 1 oder mehr Impfstoffdosen gelten als 1. Dosis |  
+| `Diphtherie`, `Tetanus`, `Pertussis`, `Masern`, `Mumps`, `Röteln`, `Varizellen`, `Humane Papillomviren` | 1. Dosis  | 1 oder mehr Impfstoffdosen gelten als 1. Dosis |  
+| `Meningokokken C` | 1 Dosis  | 1 oder mehr Impfstoffdosen gelten als 1 Dosis |
 
-  
 > Rieck T, Feig M, Wichmann O, Siedler A: Impfquoten von Kinderschutzimpfungen in Deutschland – aktuelle Ergebnisse aus der RKI-Impfsurveillance Epid Bull 2020;32/33:9–27 | DOI [10.25646/7027.4](https://doi.org/10.25646/7027.4)  
 
 #### Berechnung der Impfquoten  
@@ -95,7 +98,7 @@ Neben der Inanspruchnahme der Routineimpfungen zu unterschiedlichen Alterszeitpu
 Die zugrundeliegenden Datensätze enthalten auf 5 Nachkommastellen gerundete Impfquoten in Prozent für die jeweils kleinste mögliche Einheit: pro Geburtsjahr/Kalenderjahr/Saison, Altersgruppe, Impfstatus und Landkreis (`Impfquote`). Berechnet wurden diese auf Grundlage der in [Tabelle 1](#Tabelle-1-Einschlusskriterien-für-die-Bildung-der-Studienpopulationen-zur-Impfquotenberechnung-der-Säuglings--und-Kinderimpfungen-in-der-KV-Impfsurveillance) dargestellten Kohorten. Zur Berechnung der Impfquoten für höhere Regionalebenen ist eine Bevölkerungsgewichtung (`Bevoelkerung_Gewicht`) zu nutzen. Die Bevölkerungszahl zur Gewichtung ist die Größe der Bevölkerung des jeweiligen Stratums (Statisches Bundesamt). Die Formel zur Berechnung der bevölkerungsgewichteten Impfquote lautet:  
     
     
-$Impfquote_{gewichtet} = \sum(Bevoelkerung_{Gewicht} * Impfquote)$ / $\sum(Bevoelkerung_{Gewicht})$
+$Impfquote_{gewichtet} = \sum(Bevoelkerung_{Gewicht} * Impfquote) / \sum(Bevoelkerung_{Gewicht})$
 
 
 ## Aufbau und Inhalt des Datensatzes  
@@ -109,10 +112,13 @@ Im Datensatz enthalten sind:
 - Metadaten zur Datenpublikation   
 - Lizenz Datei mit der Nutzungslizenz des Datensatzes   
 
-Zentrales Datum des Datensatzes sind die aktuellen Impfquoten auf Basis der Daten der KV-Impfsurveillance. Diese sind im Hauptverzeichnis unter `KVIS_Impfquoten_Kinder.tsv` abrufbar und werden wöchentlich überschrieben.
+Zentrales Datum des Datensatzes sind die aktuellen Impfquoten auf Basis der Daten der KV-Impfsurveillance. Diese sind im Hauptverzeichnis unter `KVIS_Impfquoten_Kinder.tsv` und `KVIS_Impfquoten_HPV.tsv` abrufbar.
 
-> [KVIS_Impfquoten_Kinder.tsv](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/KVIS_Impfquoten_Kinder.tsv)  
-> [KVIS_Impfquoten_Kinder.xlsx](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/KVIS_Impfquoten_Kinder.xlsx)  
+> [KVIS_Impfquoten_Kinder.tsv](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/KVIS_Impfquoten_Kinder.tsv)    
+> [KVIS_Impfquoten_Kinder.xlsx](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/KVIS_Impfquoten_Kinder.xlsx)    
+    
+> [KVIS_Impfquoten_HPV.tsv](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/KVIS_Impfquoten_HPV.tsv)    
+> [KVIS_Impfquoten_HPV.xlsx](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/KVIS_Impfquoten_HPV.xlsx)    
   
 Die Fortschreibung der Daten erfolgt in der Regel jährlich.  
 
@@ -130,8 +136,9 @@ Der Datensatz enthält die in der folgenden Tabelle abgebildeten Variablen und d
 
 | Variable            | Typ       | Ausprägung | Beschreibung| 
 | --------------------| --------- | ---------- | ----------- |
+| Kalenderjahr        | Date      | `yyyy` | Kalenderjahr im ISO 8601 Format |
 | Geburtsjahr         | Date      | `yyyy` | Geburtsjahr der Kohorte im ISO 8601 Format |
-| Impfung             | String    |  `Diphtherie`, `Tetanus`, `Pertussis`, `Poliomyelitis`, `Haemophilus influenzae Typ b (Hib)`, `Hepatitis B`, `Masern`, `Mumps`, `Röteln`, `Varizellen`, `Meningokokken C`, `Pneumokokken`, `Rotavirus` | Zielkrankheiten der eingesetzten Impfstoffe  |
+| Impfung             | String    |  `Diphtherie`, `Tetanus`, `Pertussis`, `Poliomyelitis`, `Haemophilus influenzae Typ b (Hib)`, `Hepatitis B`, `Masern`, `Mumps`, `Röteln`, `Varizellen`, `Meningokokken C`, `Pneumokokken`, `Rotavirus`, `HPV` | Zielkrankheiten der eingesetzten Impfstoffe  |
 | STIKO_Empfehlung    | String    | `Standard`, `Indikation Grunderkrankungen`,`Indikation Schwangerschaft`  | Art der Impfempfehlung |
 | Impfstatus          | String    | `1 Dosis`,`1. Dosis`,`2. Dosis`,`3. Dosis`,`vollständig` | Ausprägung des Impfstatus |
 | Altersgruppe        | String    | `32 Wochen`, `15 Monate`, `24 Monate`, `36 Monate`, `48 Monate`, `60 Monate`, `72 Monate` | Alter, bis zu dem die Impfung in Anspruch genommen wurde  |
@@ -148,22 +155,36 @@ Der Datensatz enthält die in der folgenden Tabelle abgebildeten Variablen und d
 
 Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadatenordner hinterlegt:  
 
-> [Metadaten/](/Metadaten/)  
+> [Metadaten/](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/Metadaten/)    
 
-Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/representation nachlesbar.   
-
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.   
+ 
 > [Metadaten/zenodo.json](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/Metadaten/zenodo.json)  
 
-## Hinweise zur Nachnutzung der Daten
+In der zenodo.json ist neben der Publikationsdatum (`"publication_date"`) auch der Datenstand in folgendem Format enthalten (Beispiel):  
 
-Offene Forschungsdaten des RKI werden auf [GitHub.com](http://GitHub.com/), [Zenodo.org](http://Zenodo.org/) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:
+```
+  "dates": [
+    {
+      "start": "2023-09-11T15:00:21+02:00",
+      "end": "2023-09-11T15:00:21+02:00",
+      "type": "Created",
+      "description": "Date when the published data was created"
+    }
+  ],
+```    
 
-- https://github.com/robert-koch-institut
-- https://zenodo.org/communities/robertkochinstitut
-- https://gitlab.opencode.de/robert-koch-institut
-- https://edoc.rki.de/
+## Hinweise zur Nachnutzung der Daten  
 
-### Lizenz
-Der Datensatz "Inanspruchnahme von Routineimpfungen in Deutschland – Ergebnisse aus der KV-Impfsurveillance" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).
+Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:  
 
-Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/LIZENZ) Datei des Datensatzes.
+- https://zenodo.org/communities/robertkochinstitut  
+- https://github.com/robert-koch-institut  
+- https://gitlab.opencode.de/robert-koch-institut  
+- https://edoc.rki.de/  
+ 
+### Lizenz  
+
+Der Datensatz "Inanspruchnahme von Routineimpfungen in Deutschland – Ergebnisse aus der KV-Impfsurveillance" ist lizenziert unter  der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
+
+Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/LIZENZ) Datei des Datensatzes.  
