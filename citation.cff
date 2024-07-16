@@ -85,7 +85,7 @@ message: Cite me!
 url: >-
   https://robert-koch-institut.github.io/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance
 license: CC-BY-4.0
-doi: 10.5281/zenodo.12748477
+doi: 10.5281/zenodo.12748542
 version: '2024-07-12T17:32:00+02:00'
 authors:
   - family-names: Rieck
