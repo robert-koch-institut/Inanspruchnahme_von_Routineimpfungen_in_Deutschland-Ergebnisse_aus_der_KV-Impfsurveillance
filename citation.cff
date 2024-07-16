@@ -27,7 +27,7 @@ abstract: >-
   nach Altersgruppen, im Zeitverlauf und auf regionaler Ebene können Defizite in
   der Umsetzung der Impfempfehlungen identifiziert und in der Folge
   zielgruppenspezifisch adressiert werden.
-date-released: '2024-07-11'
+date-released: '2024-07-16'
 keywords:
   - Impfung
   - Vakzination
@@ -56,7 +56,6 @@ keywords:
   - Pneumokokkenvakzinen
   - Rotavirus
   - Rotavirusvakzine
-  - Humanes Papillomavirus
   - Vaccination
   - Mass Vaccination
   - Vaccination Coverage
@@ -75,18 +74,19 @@ keywords:
   - Neisseria meningitidis, Serogroup C
   - Pneumococcal Vaccines
   - Rotavirus Vaccines
-  - Human Papillomavirus
   - Open Data
   - Offen Daten
   - RKI
   - Deutschland
   - Germany
+  - Humanes Papillomavirus
+  - Human Papillomavirus
 message: Cite me!
 url: >-
   https://robert-koch-institut.github.io/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance
 license: CC-BY-4.0
-doi: 10.5281/zenodo.12723466
-version: '2024-07-01T10:57:00+02:00'
+doi: 10.5281/zenodo.12748477
+version: '2024-07-12T17:32:00+02:00'
 authors:
   - family-names: Rieck
     given-names: Thorsten
