@@ -1,0 +1,117 @@
+{
+  "fields": [
+    {
+      "name": "Geburtsjahr",
+      "type": "date",
+      "description": "Geburtsjahr der Kohorte im ISO 8601 Format"
+    },
+    {
+      "name": "Impfung",
+      "type": "string",
+      "description": "Zielkrankheiten der eingesetzten Impfstoffe",
+      "constraints": {
+        "enum": [
+          "Diphtherie, Tetanus, Pertussis",
+          "Diphtherie",
+          "Tetanus",
+          "Pertussis",
+          "Polio",
+          "Haemophilus influenzae Typ b",
+          "Hepatitis B",
+          "Masern",
+          "Mumps",
+          "Röteln",
+          "Varizellen",
+          "Meningokokken C",
+          "Pneumokokken",
+          "Rotavirus"
+        ]
+      }
+    },
+    {
+      "name": "STIKO_Empfehlung",
+      "type": "string",
+      "description": "Art der Impfempfehlung",
+      "constraints": {
+        "enum": [
+          "Standard",
+          "Indikation Grunderkrankungen",
+          "Indikation Schwangerschaft"
+        ]
+      }
+    },
+    {
+      "name": "Impfstatus",
+      "type": "string",
+      "description": "Ausprägung des Impfstatus",
+      "constraints": {
+        "enum": [
+          "1 Dosis",
+          "1. Dosis",
+          "2. Dosis",
+          "3. Dosis",
+          "vollständig"
+        ]
+      }
+    },
+    {
+      "name": "Altersgruppe",
+      "type": "string",
+      "description": "Alter, bis zu dem die Impfung in Anspruch genommen wurde",
+      "constraints": {
+        "enum": [
+          "32 Wochen",
+          "15 Monate",
+          "24 Monate",
+          "36 Monate",
+          "48 Monate",
+          "60 Monate",
+          "72 Monate"
+        ]
+      }
+    },
+    {
+      "name": "Bundesland_Name",
+      "type": "string",
+      "description": "Name des Bundeslandes des zugeordneten Landkreises"
+    },
+    {
+      "name": "Bundesland_short",
+      "type": "string",
+      "description": "Codes des Bundeslandes des zugeordneten Landkreises"
+    },
+    {
+      "name": "KV_Region_Name",
+      "type": "string",
+      "description": "Name der KV-Region des zugeordneten Landkreises"
+    },
+    {
+      "name": "KV_Region_short",
+      "type": "string",
+      "description": "Kürzel der KV-Region des zugeordneten Landkreises"
+    },
+    {
+      "name": "Landkreis_Name",
+      "type": "string",
+      "description": "Name des Landkreises"
+    },
+    {
+      "name": "Regionalschluessel_Kreis",
+      "type": "integer",
+      "description": "ID des Landkreises nach dem amtlichen Gemeindeschlüssel (AGS)"
+    },
+    {
+      "name": "Bevoelkerung_Gewicht",
+      "type": "integer",
+      "description": "Größe der Bevölkerung im jeweiligen Stratum (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten))",
+      "constraints": {
+        "minimum": 1
+      }
+    },
+    {
+      "name": "Impfquote",
+      "type": "number",
+      "description": "Anteil der geimpften Personen (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten))"
+    }
+  ]
+}

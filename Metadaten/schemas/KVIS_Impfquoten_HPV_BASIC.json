@@ -1,0 +1,60 @@
+{
+  "fields": [
+    {
+      "name": "Jahr",
+      "type": "integer"
+    },
+    {
+      "name": "Impfung",
+      "type": "string"
+    },
+    {
+      "name": "STIKO_Empfehlung",
+      "type": "string"
+    },
+    {
+      "name": "Impfstatus",
+      "type": "string"
+    },
+    {
+      "name": "Geschlecht",
+      "type": "string"
+    },
+    {
+      "name": "Altersgruppe",
+      "type": "integer"
+    },
+    {
+      "name": "Bundesland_Name",
+      "type": "string"
+    },
+    {
+      "name": "Bundesland_short",
+      "type": "string"
+    },
+    {
+      "name": "KV_Region_Name",
+      "type": "string"
+    },
+    {
+      "name": "KV_Region_short",
+      "type": "string"
+    },
+    {
+      "name": "Landkreis_Name",
+      "type": "string"
+    },
+    {
+      "name": "Regionalschluessel_Kreis",
+      "type": "integer"
+    },
+    {
+      "name": "Bevoelkerung_Gewicht",
+      "type": "integer"
+    },
+    {
+      "name": "Impfquote",
+      "type": "number"
+    }
+  ]
+}
