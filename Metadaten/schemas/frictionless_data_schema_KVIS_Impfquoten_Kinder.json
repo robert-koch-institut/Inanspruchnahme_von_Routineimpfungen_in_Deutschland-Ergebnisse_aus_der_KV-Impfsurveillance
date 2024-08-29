@@ -74,12 +74,52 @@
     {
       "name": "Bundesland_Name",
       "type": "string",
-      "description": "Name des Bundeslandes des zugeordneten Landkreises"
+      "description": "Name des Bundeslandes des zugeordneten Landkreises",
+      "constraints": {
+        "enum": [
+          "Baden-Württemberg",
+          "Bayern",
+          "Berlin",
+          "Brandenburg",
+          "Bremen",
+          "Hamburg",
+          "Hessen",
+          "Mecklenburg-Vorpommern",
+          "Niedersachsen",
+          "Nordrhein-Westfalen",
+          "Rheinland-Pfalz",
+          "Saarland",
+          "Sachsen",
+          "Sachsen-Anhalt",
+          "Schleswig-Holstein",
+          "Thüringen"
+        ]
+      }
     },
     {
       "name": "Bundesland_short",
       "type": "string",
-      "description": "Codes des Bundeslandes des zugeordneten Landkreises"
+      "description": "Codes des Bundeslandes des zugeordneten Landkreises",
+      "constraints": {
+        "enum": [
+            "BB",
+            "BE",
+            "BW",
+            "BY",
+            "HB",
+            "HE",
+            "HH",
+            "MV",
+            "NI",
+            "NW",
+            "RP",
+            "SH",
+            "SL",
+            "SN",
+            "ST",
+            "TH"
+        ]
+      }
     },
     {
       "name": "KV_Region_Name",
