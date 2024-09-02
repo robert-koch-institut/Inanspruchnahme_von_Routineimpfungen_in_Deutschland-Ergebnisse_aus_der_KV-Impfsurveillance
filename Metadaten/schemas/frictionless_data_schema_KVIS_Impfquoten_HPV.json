@@ -45,21 +45,18 @@
     {
       "name": "Geschlecht",
       "type": "string",
+      "description": "Geschlecht der Personengruppe",
       "constraints": {
         "enum": [
-          "weiblich",
-          "männlich"
+          "männlich",
+          "weiblich"
         ]
       }
     },
     {
       "name": "Altersgruppe",
       "type": "integer",
-      "description": "Alter, bis zu dem die Impfung in Anspruch genommen wurde",
-      "constraints": {
-        "minimum": 9,
-        "maximum": 18
-      }
+      "description": "TODO: Beschreibung hinzufügen"
     },
     {
       "name": "Bundesland_Name",
@@ -92,34 +89,78 @@
       "description": "Codes des Bundeslandes des zugeordneten Landkreises",
       "constraints": {
         "enum": [
-            "BB",
-            "BE",
-            "BW",
-            "BY",
-            "HB",
-            "HE",
-            "HH",
-            "MV",
-            "NI",
-            "NW",
-            "RP",
-            "SH",
-            "SL",
-            "SN",
-            "ST",
-            "TH"
+          "BB",
+          "BE",
+          "BW",
+          "BY",
+          "HB",
+          "HE",
+          "HH",
+          "MV",
+          "NI",
+          "NW",
+          "RP",
+          "SH",
+          "SL",
+          "SN",
+          "ST",
+          "TH"
         ]
       }
     },
     {
       "name": "KV_Region_Name",
       "type": "string",
-      "description": "Name der KV-Region des zugeordneten Landkreises"
+      "description": "Name der KV-Region des zugeordneten Landkreises",
+      "constraints": {
+        "enum": [
+          "Baden-Württemberg",
+          "Bayern",
+          "Berlin",
+          "Brandenburg",
+          "Bremen",
+          "Hamburg",
+          "Hessen",
+          "Mecklenburg-Vorpommern",
+          "Niedersachsen",
+          "Nordrhein-Westfalen",
+          "Rheinland-Pfalz",
+          "Saarland",
+          "Sachsen",
+          "Sachsen-Anhalt",
+          "Schleswig-Holstein",
+          "Thüringen",
+          "Nordrhein",
+          "Westfalen-Lippe"
+        ]
+      }
     },
     {
       "name": "KV_Region_short",
       "type": "string",
-      "description": "Kürzel der KV-Region des zugeordneten Landkreises"
+      "description": "Kürzel der KV-Region des zugeordneten Landkreises",
+      "constraints": {
+        "enum": [
+          "BB",
+          "BE",
+          "BW",
+          "BY",
+          "HB",
+          "HE",
+          "HH",
+          "MV",
+          "NI",
+          "NW",
+          "RP",
+          "SH",
+          "SL",
+          "SN",
+          "ST",
+          "TH",
+          "NO",
+          "WL"
+        ]
+      }
     },
     {
       "name": "Landkreis_Name",

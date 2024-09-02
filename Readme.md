@@ -143,8 +143,8 @@ Der Datensatz `KVIS_Impfquoten_Kinder` enthält die in der folgenden Tabelle abg
 | Altersgruppe        | String    | `32 Wochen`, `15 Monate`, `24 Monate`, `36 Monate`, `48 Monate`, `60 Monate`, `72 Monate` | Alter, bis zu dem die Impfung in Anspruch genommen wurde  |
 | Bundesland_Name     | String    | `Schleswig-Holstein`, ..., `Thüringen`| Name des Bundeslandes des zugeordneten Landkreises |
 | Bundesland_short        | String    | `SH`, ..., `TH` |  Codes des Bundeslandes des zugeordneten Landkreises |
-| KV_Region_Name      | String    | `Schleswig-Holstein`, ..., `Thüringen` | Name der KV-Region des zugeordneten Landkreises  |
-| KV_Region_short        | String    |  `SH`, ..., `TH`| Kürzel der KV-Region des zugeordneten Landkreises |
+| KV_Region_Name      | String    | `Nordrhein`, `Westfalen-Lippe`, `Schleswig-Holstein`, ..., `Thüringen` | Name der KV-Region des zugeordneten Landkreises  |
+| KV_Region_short        | String    |  `NO`, `WL`, `SH`, ..., `TH`| Kürzel der KV-Region des zugeordneten Landkreises |
 | Landkreis_Name      | String    |  `SK Flensburg`, ..., `LK Altenburger Land` | Name des Landkreises  |
 | Regionalschluessel_Kreis        | integer    | `01001`, ..., `16077` | ID des Landkreises nach dem amtlichen Gemeindeschlüssel (AGS) |
 | Bevoelkerung_Gewicht| integer   | `>0` | Größe der Bevölkerung im jeweiligen Stratum (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten)) |
@@ -163,8 +163,8 @@ Der Datensatz `KVIS_Impfquoten_HPV` enthält die in der folgenden Tabelle abgebi
 | Altersgruppe        | Integer |  | TODO: Beschreibung hinzufügen  |
 | Bundesland_Name     | String    | `Schleswig-Holstein`, ..., `Thüringen`| Name des Bundeslandes des zugeordneten Landkreises |
 | Bundesland_short        | String    | `SH`, ..., `TH` |  Codes des Bundeslandes des zugeordneten Landkreises |
-| KV_Region_Name      | String    | `Schleswig-Holstein`, ..., `Thüringen` | Name der KV-Region des zugeordneten Landkreises  |
-| KV_Region_short        | String    |  `SH`, ..., `TH`| Kürzel der KV-Region des zugeordneten Landkreises |
+| KV_Region_Name      | String    | `Nordrhein`, `Westfalen-Lippe`, `Schleswig-Holstein`, ..., `Thüringen` | Name der KV-Region des zugeordneten Landkreises  |
+| KV_Region_short        | String    |  `NO`, `WL`, `SH`, ..., `TH`| Kürzel der KV-Region des zugeordneten Landkreises |
 | Landkreis_Name      | String    |  `SK Flensburg`, ..., `LK Altenburger Land` | Name des Landkreises  |
 | Regionalschluessel_Kreis | integer    | `01001`, ..., `16077` | ID des Landkreises nach dem amtlichen Gemeindeschlüssel (AGS) |
 | Bevoelkerung_Gewicht| integer   | `>0` | Größe der Bevölkerung im jeweiligen Stratum (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten)) |
