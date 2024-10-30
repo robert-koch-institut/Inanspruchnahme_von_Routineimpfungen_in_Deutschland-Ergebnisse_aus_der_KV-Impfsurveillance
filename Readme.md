@@ -147,8 +147,12 @@ Der Datensatz `KVIS_Impfquoten_Kinder` enthält die in der folgenden Tabelle abg
 | KV_Region_short          | string  | Werte: `BB`, `BE`, `BW`, `BY`, `HB`, `HE`, `HH`, …                                                                                       | Kürzel der KV-Region des zugeordneten Landkreises                                                           |
 | Landkreis_Name           | string  |                                                                                                                                          | Name des Landkreises                                                                                        |
 | Regionalschluessel_Kreis | integer |                                                                                                                                          | ID des Landkreises nach dem amtlichen Gemeindeschlüssel (AGS)                                               |
-| Bevoelkerung_Gewicht     | integer | Minimum: 1                                                                                                                               | Größe der Bevölkerung im jeweiligen Stratum (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten)) |
+| Bevoelkerung_Gewicht     | integer | Werte: ≥1                                                                                                                                | Größe der Bevölkerung im jeweiligen Stratum (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten)) |
 | Impfquote                | number  |                                                                                                                                          | Anteil der geimpften Personen (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten))               |
+
+
+
+
 
 Eine maschinenlesbares Datenschema zu diesem Datensatz finden sie in der Datei [`frictionless_data_schema_KVIS_Impfquoten_Kinder.json`](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/Metadaten/schemas/frictionless_data_schema_KVIS_Impfquoten_Kinder.json).
 
@@ -170,8 +174,12 @@ Der Datensatz `KVIS_Impfquoten_HPV` enthält die in der folgenden Tabelle abgebi
 | KV_Region_short          | string  | Werte: `BB`, `BE`, `BW`, `BY`, `HB`, `HE`, `HH`, …                                              | Kürzel der KV-Region des zugeordneten Landkreises                                                           |
 | Landkreis_Name           | string  |                                                                                                 | Name des Landkreises                                                                                        |
 | Regionalschluessel_Kreis | integer |                                                                                                 | ID des Landkreises nach dem amtlichen Gemeindeschlüssel (AGS)                                               |
-| Bevoelkerung_Gewicht     | integer | Minimum: 1                                                                                      | Größe der Bevölkerung im jeweiligen Stratum (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten)) |
+| Bevoelkerung_Gewicht     | integer | Werte: ≥1                                                                                       | Größe der Bevölkerung im jeweiligen Stratum (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten)) |
 | Impfquote                | number  |                                                                                                 | Anteil der geimpften Personen (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten))               |
+
+
+
+
 
 Eine maschinenlesbares Datenschema zu diesem Datensatz finden sie in der Datei [`frictionless_data_schema_KVIS_Impfquoten_HPV.json`](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/Metadaten/schemas/frictionless_data_schema_KVIS_Impfquoten_HPV.json).
 
