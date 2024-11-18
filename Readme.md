@@ -134,6 +134,12 @@ Die Impfquoten werden nach verschiedenen Eigenschaften differenziert und ermögl
 
 Der Datensatz `KVIS_Impfquoten_Kinder` enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:  
 
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "KVIS_Impfquoten_Kinder", "lang": "de"} -->
+
+Die Datei [KVIS_Impfquoten_Kinder.tsv](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/KVIS_Impfquoten_Kinder.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Frictionless-Data Format](https://specs.frictionlessdata.io/) in [frictionless_data_schema_KVIS_Impfquoten_Kinder.json](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/Metadaten/schemas/frictionless_data_schema_KVIS_Impfquoten_Kinder.json) hinterlegt:
+> [frictionless_data_schema_KVIS_Impfquoten_Kinder.json](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/Metadaten/schemas/frictionless_data_schema_KVIS_Impfquoten_Kinder.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
 | Variable                 | Typ     | Ausprägungen                                                                                                                             | Beschreibung                                                                                                |
 |:-------------------------|:--------|:-----------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------|
 | Geburtsjahr              | date    | Format: `YYYY`                                                                                                                           | Geburtsjahr der Kohorte im ISO 8601 Format                                                                  |
@@ -150,16 +156,25 @@ Der Datensatz `KVIS_Impfquoten_Kinder` enthält die in der folgenden Tabelle abg
 | Bevoelkerung_Gewicht     | integer | Werte: ≥1                                                                                                                                | Größe der Bevölkerung im jeweiligen Stratum (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten)) |
 | Impfquote                | number  |                                                                                                                                          | Anteil der geimpften Personen (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten))               |
 
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
 
 
 
 
-Eine maschinenlesbares Datenschema zu diesem Datensatz finden sie in der Datei [`frictionless_data_schema_KVIS_Impfquoten_Kinder.json`](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/Metadaten/schemas/frictionless_data_schema_KVIS_Impfquoten_Kinder.json).
+
 
 
 
 Der Datensatz `KVIS_Impfquoten_HPV` enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:  
 
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "KVIS_Impfquoten_HPV", "lang": "de"} -->
+
+Die Datei [KVIS_Impfquoten_HPV.tsv](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/KVIS_Impfquoten_HPV.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Frictionless-Data Format](https://specs.frictionlessdata.io/) in [frictionless_data_schema_KVIS_Impfquoten_HPV.json](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/Metadaten/schemas/frictionless_data_schema_KVIS_Impfquoten_HPV.json) hinterlegt:
+> [frictionless_data_schema_KVIS_Impfquoten_HPV.json](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/Metadaten/schemas/frictionless_data_schema_KVIS_Impfquoten_HPV.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
 | Variable                 | Typ     | Ausprägungen                                                                                    | Beschreibung                                                                                                |
 |:-------------------------|:--------|:------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------|
 | Jahr                     | date    | Format: `YYYY`                                                                                  | Kalenderjahr im ISO 8601 Format                                                                             |
@@ -177,11 +192,14 @@ Der Datensatz `KVIS_Impfquoten_HPV` enthält die in der folgenden Tabelle abgebi
 | Bevoelkerung_Gewicht     | integer | Werte: ≥1                                                                                       | Größe der Bevölkerung im jeweiligen Stratum (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten)) |
 | Impfquote                | number  |                                                                                                 | Anteil der geimpften Personen (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten))               |
 
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
 
 
 
 
-Eine maschinenlesbares Datenschema zu diesem Datensatz finden sie in der Datei [`frictionless_data_schema_KVIS_Impfquoten_HPV.json`](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/Metadaten/schemas/frictionless_data_schema_KVIS_Impfquoten_HPV.json).
+
 
 
 
