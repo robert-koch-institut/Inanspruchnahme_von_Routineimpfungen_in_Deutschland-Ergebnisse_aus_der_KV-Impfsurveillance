@@ -132,8 +132,6 @@ Die Impfquoten werden nach verschiedenen Eigenschaften differenziert und ermögl
 
 #### Variablen und Variablenausprägungen  
 
-Der Datensatz `KVIS_Impfquoten_Kinder` enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:  
-
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "KVIS_Impfquoten_Kinder", "lang": "de"} -->
 
 Die Datei [KVIS_Impfquoten_Kinder.tsv](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/KVIS_Impfquoten_Kinder.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Frictionless-Data Format](https://specs.frictionlessdata.io/) in [frictionless_data_schema_KVIS_Impfquoten_Kinder.json](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/Metadaten/schemas/frictionless_data_schema_KVIS_Impfquoten_Kinder.json) hinterlegt:
@@ -161,14 +159,6 @@ Die Datei [KVIS_Impfquoten_Kinder.tsv](https://github.com/robert-koch-institut/I
 <!-- DATA_SCHEMA_SPECIFICATION_END -->
 
 
-
-
-
-
-
-
-Der Datensatz `KVIS_Impfquoten_HPV` enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:  
-
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "KVIS_Impfquoten_HPV", "lang": "de"} -->
 
 Die Datei [KVIS_Impfquoten_HPV.tsv](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/KVIS_Impfquoten_HPV.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Frictionless-Data Format](https://specs.frictionlessdata.io/) in [frictionless_data_schema_KVIS_Impfquoten_HPV.json](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/Metadaten/schemas/frictionless_data_schema_KVIS_Impfquoten_HPV.json) hinterlegt:
@@ -195,13 +185,6 @@ Die Datei [KVIS_Impfquoten_HPV.tsv](https://github.com/robert-koch-institut/Inan
 <!-- DATA_SCHEMA_TABLE_END -->
 
 <!-- DATA_SCHEMA_SPECIFICATION_END -->
-
-
-
-
-
-
-
 
 
 ### Metadaten  
