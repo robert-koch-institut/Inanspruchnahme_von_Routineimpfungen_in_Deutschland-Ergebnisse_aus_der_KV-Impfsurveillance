@@ -1,0 +1,26 @@
+{
+  "name": "10.5281/zenodo.10221305",
+  "title": "Inanspruchnahme von Routineimpfungen in Deutschland - Ergebnisse aus der KV-Impfsurveillance",
+  "description": "Diese Datei gibt eine Übersicht über die Datensätze in diesem Open Data Repository. Informationen zum Data Package Standard finden Sie unter https://datapackage.org/. Mehr Information über diesen Datensatz finden sie auf Zenodo (https://doi.org/10.5281/zenodo.10221305) oder Github (https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance)",
+  "homepage": "https://doi.org/10.5281/zenodo.10221305",
+  "resources": [
+    {
+      "name": "kvis_impfquoten_hpv",
+      "type": "table",
+      "path": "KVIS_Impfquoten_HPV.tsv",
+      "scheme": "file",
+      "format": "tsv",
+      "mediatype": "text/csv",
+      "schema": "Metadaten/schemas/tableschema_KVIS_Impfquoten_HPV.json"
+    },
+    {
+      "name": "kvis_impfquoten_kinder",
+      "type": "table",
+      "path": "KVIS_Impfquoten_Kinder.tsv",
+      "scheme": "file",
+      "format": "tsv",
+      "mediatype": "text/csv",
+      "schema": "Metadaten/schemas/tableschema_KVIS_Impfquoten_Kinder.json"
+    }
+  ]
+}
