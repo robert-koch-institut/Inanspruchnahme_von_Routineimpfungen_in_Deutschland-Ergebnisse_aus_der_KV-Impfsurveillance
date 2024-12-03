@@ -151,7 +151,7 @@ Die Datei [KVIS_Impfquoten_Kinder.tsv](https://github.com/robert-koch-institut/I
 | KV_Region_short          | string  | Werte: `BB`, `BE`, `BW`, `BY`, `HB`, `HE`, `HH`, …                                                                                       | Kürzel der KV-Region des zugeordneten Landkreises                                                           |
 | Landkreis_Name           | string  |                                                                                                                                          | Name des Landkreises                                                                                        |
 | Regionalschluessel_Kreis | integer |                                                                                                                                          | ID des Landkreises nach dem amtlichen Gemeindeschlüssel (AGS)                                               |
-| Bevoelkerung_Gewicht     | integer | Werte: ≥1                                                                                                                                | Größe der Bevölkerung im jeweiligen Stratum (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten)) |
+| Bevoelkerung_Gewicht     | integer | Werte: `≥1`                                                                                                                              | Größe der Bevölkerung im jeweiligen Stratum (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten)) |
 | Impfquote                | number  |                                                                                                                                          | Anteil der geimpften Personen (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten))               |
 
 <!-- DATA_SCHEMA_TABLE_END -->
@@ -179,7 +179,7 @@ Die Datei [KVIS_Impfquoten_HPV.tsv](https://github.com/robert-koch-institut/Inan
 | KV_Region_short          | string  | Werte: `BB`, `BE`, `BW`, `BY`, `HB`, `HE`, `HH`, …                                              | Kürzel der KV-Region des zugeordneten Landkreises                                                           |
 | Landkreis_Name           | string  |                                                                                                 | Name des Landkreises                                                                                        |
 | Regionalschluessel_Kreis | integer |                                                                                                 | ID des Landkreises nach dem amtlichen Gemeindeschlüssel (AGS)                                               |
-| Bevoelkerung_Gewicht     | integer | Werte: ≥1                                                                                       | Größe der Bevölkerung im jeweiligen Stratum (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten)) |
+| Bevoelkerung_Gewicht     | integer | Werte: `≥1`                                                                                     | Größe der Bevölkerung im jeweiligen Stratum (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten)) |
 | Impfquote                | number  |                                                                                                 | Anteil der geimpften Personen (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten))               |
 
 <!-- DATA_SCHEMA_TABLE_END -->
