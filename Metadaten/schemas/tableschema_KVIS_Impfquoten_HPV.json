@@ -183,7 +183,11 @@
     {
       "name": "Impfquote",
       "type": "number",
-      "description": "Anteil der geimpften Personen (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten))"
+      "description": "Anteil der geimpften Personen (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten))",
+      "constraints": {
+        "minimum": 0,
+        "maximum": 100
+      }
     }
   ]
 }
