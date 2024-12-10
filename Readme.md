@@ -132,24 +132,60 @@ Die Impfquoten werden nach verschiedenen Eigenschaften differenziert und ermögl
 
 #### Variablen und Variablenausprägungen  
 
-Der Datensatz enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:  
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "KVIS_Impfquoten_Kinder", "lang": "de"} -->
 
-| Variable            | Typ       | Ausprägung | Beschreibung| 
-| --------------------| --------- | ---------- | ----------- |
-| Kalenderjahr        | Date      | `yyyy` | Kalenderjahr im ISO 8601 Format |
-| Geburtsjahr         | Date      | `yyyy` | Geburtsjahr der Kohorte im ISO 8601 Format |
-| Impfung             | String    |  `Diphtherie`, `Tetanus`, `Pertussis`, `Poliomyelitis`, `Haemophilus influenzae Typ b (Hib)`, `Hepatitis B`, `Masern`, `Mumps`, `Röteln`, `Varizellen`, `Meningokokken C`, `Pneumokokken`, `Rotavirus`, `HPV` | Zielkrankheiten der eingesetzten Impfstoffe  |
-| STIKO_Empfehlung    | String    | `Standard`, `Indikation Grunderkrankungen`,`Indikation Schwangerschaft`  | Art der Impfempfehlung |
-| Impfstatus          | String    | `1 Dosis`,`1. Dosis`,`2. Dosis`,`3. Dosis`,`vollständig` | Ausprägung des Impfstatus |
-| Altersgruppe        | String    | `32 Wochen`, `15 Monate`, `24 Monate`, `36 Monate`, `48 Monate`, `60 Monate`, `72 Monate` | Alter, bis zu dem die Impfung in Anspruch genommen wurde  |
-| Bundesland_Name     | String    | `Schleswig-Holstein`, ..., `Thüringen`| Name des Bundeslandes des zugeordneten Landkreises |
-| Bundsland_ID        | String    | `SH`, ..., `TH` |  Codes des Bundeslandes des zugeordneten Landkreises |
-| KV_Region_Name      | String    | `Schleswig-Holstein`, ..., `Thüringen` | Name der KV-Region des zugeordneten Landkreises  |
-| KV_Region_ID        | String    |  `SH`, ..., `TH`| Kürzel der KV-Region des zugeordneten Landkreises |
-| Landkreis_Name      | String    |  `SK Flensburg`, ..., `LK Altenburger Land` | Name des Landkreises  |
-| Landkreis_ID        | String    | `01001`, ..., `16077` | ID des Landkreises nach dem amtlichen Gemeindeschlüssel (AGS) |
-| Bevoelkerung_Gewicht| integer   | `>0` | Größe der Bevölkerung im jeweiligen Stratum (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten)) |
-| Impfquote           | float     |  [`0.00000`, `100.00000`] | Anteil der geimpften Personen (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten)) |
+Die Datei [KVIS_Impfquoten_Kinder.tsv](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/KVIS_Impfquoten_Kinder.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_KVIS_Impfquoten_Kinder.json](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/Metadaten/schemas/tableschema_KVIS_Impfquoten_Kinder.json) hinterlegt:
+> [tableschema_KVIS_Impfquoten_Kinder.json](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/Metadaten/schemas/tableschema_KVIS_Impfquoten_Kinder.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
+| Variable                 | Typ     | Ausprägungen                                                                                                                                                  | Beschreibung                                                                                                |
+|:-------------------------|:--------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------|
+| Geburtsjahr              | date    | Format: `YYYY`                                                                                                                                                | Geburtsjahr der Kohorte im ISO 8601 Format                                                                  |
+| Impfung                  | string  | Werte: `Diphtherie, Tetanus, Pertussis`, `Diphtherie`, `Tetanus`, `Pertussis`, `Polio`, `Haemophilus influenzae Typ b`, `Hepatitis B`, …                      | Zielkrankheiten der eingesetzten Impfstoffe                                                                 |
+| STIKO_Empfehlung         | string  | Werte: `Standard`, `Indikation Grunderkrankungen`, `Indikation Schwangerschaft`                                                                               | Art der Impfempfehlung                                                                                      |
+| Impfstatus               | string  | Werte: `1 Dosis`, `1. Dosis`, `2. Dosis`, `3. Dosis`, `vollständig`                                                                                           | Ausprägung des Impfstatus                                                                                   |
+| Altersgruppe             | string  | Werte: `32 Wochen`, `15 Monate`, `24 Monate`, `36 Monate`, `48 Monate`, `60 Monate`, `72 Monate`                                                              | Alter, bis zu dem die Impfung in Anspruch genommen wurde                                                    |
+| Bundesland_Name          | string  | Werte: `Baden-Württemberg`, `Bayern`, `Berlin`, `Brandenburg`, `Bremen`, `Hamburg`, `Hessen`, …                                                               | Name des Bundeslandes des zugeordneten Landkreises                                                          |
+| Bundesland_short         | string  | Werte: `BB`, `BE`, `BW`, `BY`, `HB`, `HE`, `HH`, …                                                                                                            | Codes des Bundeslandes des zugeordneten Landkreises                                                         |
+| KV_Region_Name           | string  | Werte: `Baden-Württemberg`, `Bayern`, `Berlin`, `Brandenburg`, `Bremen`, `Hamburg`, `Hessen`, …                                                               | Name der KV-Region des zugeordneten Landkreises                                                             |
+| KV_Region_short          | string  | Werte: `BB`, `BE`, `BW`, `BY`, `HB`, `HE`, `HH`, …                                                                                                            | Kürzel der KV-Region des zugeordneten Landkreises                                                           |
+| Landkreis_Name           | string  | Werte: `LK Ahrweiler`, `LK Aichach-Friedberg`, `LK Alb-Donau-Kreis`, `LK Altenburger Land`, `LK Altenkirchen`, `LK Altmarkkreis Salzwedel`, `LK Altötting`, … | Name des Landkreises                                                                                        |
+| Regionalschluessel_Kreis | integer | Werte: `01001`, `01002`, `01003`, `01004`, `01051`, `01053`, `01054`, …                                                                                       | ID des Landkreises nach dem amtlichen Gemeindeschlüssel (AGS)                                               |
+| Bevoelkerung_Gewicht     | integer | Werte: `≥1`                                                                                                                                                   | Größe der Bevölkerung im jeweiligen Stratum (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten)) |
+| Impfquote                | number  | Werte: `0` - `100`                                                                                                                                            | Anteil der geimpften Personen (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten))               |
+
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
+
+
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "KVIS_Impfquoten_HPV", "lang": "de"} -->
+
+Die Datei [KVIS_Impfquoten_HPV.tsv](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/KVIS_Impfquoten_HPV.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_KVIS_Impfquoten_HPV.json](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/Metadaten/schemas/tableschema_KVIS_Impfquoten_HPV.json) hinterlegt:
+> [tableschema_KVIS_Impfquoten_HPV.json](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/Metadaten/schemas/tableschema_KVIS_Impfquoten_HPV.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
+| Variable                 | Typ     | Ausprägungen                                                                                                                                                  | Beschreibung                                                                                                |
+|:-------------------------|:--------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------|
+| Jahr                     | date    | Format: `YYYY`                                                                                                                                                | Kalenderjahr im ISO 8601 Format                                                                             |
+| Impfung                  | string  | Werte: `HPV`                                                                                                                                                  | Zielkrankheiten der eingesetzten Impfstoffe                                                                 |
+| STIKO_Empfehlung         | string  | Werte: `Standard`, `Indikation Grunderkrankungen`, `Indikation Schwangerschaft`                                                                               | Art der Impfempfehlung                                                                                      |
+| Impfstatus               | string  | Werte: `1 Dosis`, `1. Dosis`, `2. Dosis`, `3. Dosis`, `vollständig`                                                                                           | Ausprägung des Impfstatus                                                                                   |
+| Geschlecht               | string  | Werte: `männlich`, `weiblich`                                                                                                                                 | Geschlecht der Personengruppe                                                                               |
+| Altersgruppe             | integer |                                                                                                                                                               | TODO: Beschreibung hinzufügen                                                                               |
+| Bundesland_Name          | string  | Werte: `Baden-Württemberg`, `Bayern`, `Berlin`, `Brandenburg`, `Bremen`, `Hamburg`, `Hessen`, …                                                               | Name des Bundeslandes des zugeordneten Landkreises                                                          |
+| Bundesland_short         | string  | Werte: `BB`, `BE`, `BW`, `BY`, `HB`, `HE`, `HH`, …                                                                                                            | Codes des Bundeslandes des zugeordneten Landkreises                                                         |
+| KV_Region_Name           | string  | Werte: `Baden-Württemberg`, `Bayern`, `Berlin`, `Brandenburg`, `Bremen`, `Hamburg`, `Hessen`, …                                                               | Name der KV-Region des zugeordneten Landkreises                                                             |
+| KV_Region_short          | string  | Werte: `BB`, `BE`, `BW`, `BY`, `HB`, `HE`, `HH`, …                                                                                                            | Kürzel der KV-Region des zugeordneten Landkreises                                                           |
+| Landkreis_Name           | string  | Werte: `LK Ahrweiler`, `LK Aichach-Friedberg`, `LK Alb-Donau-Kreis`, `LK Altenburger Land`, `LK Altenkirchen`, `LK Altmarkkreis Salzwedel`, `LK Altötting`, … | Name des Landkreises                                                                                        |
+| Regionalschluessel_Kreis | integer | Werte: `01001`, `01002`, `01003`, `01004`, `01051`, `01053`, `01054`, …                                                                                       | ID des Landkreises nach dem amtlichen Gemeindeschlüssel (AGS)                                               |
+| Bevoelkerung_Gewicht     | integer | Werte: `≥1`                                                                                                                                                   | Größe der Bevölkerung im jeweiligen Stratum (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten)) |
+| Impfquote                | number  | Werte: `0` - `100`                                                                                                                                            | Anteil der geimpften Personen (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten))               |
+
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
+
 
 ### Metadaten  
 
