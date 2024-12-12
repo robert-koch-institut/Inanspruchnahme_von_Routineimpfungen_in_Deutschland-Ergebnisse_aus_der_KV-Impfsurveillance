@@ -16,7 +16,7 @@ Nordufer 20
 ---
 
 **Zitieren**  
-Rieck T, Feig M, Branke L und Steffen A (2024): Inanspruchnahme von Routineimpfungen in Deutschland – Ergebnisse aus der KV-Impfsurveillance, Berlin: Zenodo. DOI: [10.5281/zenodo.14258666](http://doi.org/10.5281/zenodo.14258666).  
+Rieck T, Feig M, Branke L und Steffen A (**2024**) Inanspruchnahme von Routineimpfungen in Deutschland – Ergebnisse aus der KV-Impfsurveillance, Berlin: Zenodo. DOI: [10.5281/zenodo.14274544](http://doi.org/10.5281/zenodo.14274544).  
 
    
 ## Einleitung  
