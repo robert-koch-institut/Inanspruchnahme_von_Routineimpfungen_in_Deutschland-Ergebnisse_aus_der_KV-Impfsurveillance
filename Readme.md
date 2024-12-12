@@ -49,7 +49,7 @@ Gemäß [§13 (5) IfSG](https://www.gesetze-im-internet.de/ifsg/__13.html) erhä
 
 #### Datenstand  
 
-Von den KVen werden die quartalsweisen Abrechnungsdaten mit einem Zeitverzug von 2 – 3 Quartalen nach Ende des jeweiligen Abrechnungsquartals zur Auswertung an das RKI übermittelt. Abhängig von der Impfung ist zur Impfquotenberechnung darüber hinaus eine Datenfortschreibung von mindestens einem weiteren Quartal über den Beobachtungszeitraum der Datenanalysen notwendig. Die Notwendigkeit ergibt sich aus den Einschlusskriterien für die Studienpopulation (s. Tabelle 1). Der hier bereitgestellte Datensatz zur Inanspruchnahme von Routineimpfungen wurde aus KV-Abrechnungsdaten berechnet, die bis zum ersten Abrechnungsquartal 2022 (2022-03-31) vorlagen.
+Von den KVen werden die quartalsweisen Abrechnungsdaten mit einem Zeitverzug von 2 – 3 Quartalen nach Ende des jeweiligen Abrechnungsquartals zur Auswertung an das RKI übermittelt. Abhängig von der Impfung ist zur Impfquotenberechnung darüber hinaus eine Datenfortschreibung von mindestens einem weiteren Quartal über den Beobachtungszeitraum der Datenanalysen notwendig. Die Notwendigkeit ergibt sich aus den Einschlusskriterien für die Studienpopulation (s. Tabelle 1). Der hier bereitgestellte Datensatz zur Inanspruchnahme von Routineimpfungen wurde basierend auf KV-Abrechnungsdaten berechnet, die bis zum ersten Abrechnungsquartal 2024 (2024-03-31) vorlagen.
 
 
 #### Studienpopulation  
@@ -103,22 +103,25 @@ $Impfquote_{gewichtet} = \sum(Bevoelkerung_{Gewicht} * Impfquote) / \sum(Bevoelk
 
 ## Aufbau und Inhalt des Datensatzes  
 
-Der Datensatz enthält die berechneten Impfquoten für Säuglinge und Kinder aus den gemäß [§13 (5) IfSG](https://www.gesetze-im-internet.de/ifsg/__13.html) im Rahmen der KV-Impfsurveillance an das RKI übermittelten Daten.
+Der Datensatz enthält die berechneten Impfquoten für Säuglinge, Kinder und Erwachsene aus den gemäß [§13 (5) IfSG](https://www.gesetze-im-internet.de/ifsg/__13.html) im Rahmen der KV-Impfsurveillance an das RKI übermittelten Daten.
 
 Im Datensatz enthalten sind:  
 
-- aktuelle Impfquoten für Säuglinge und Kinder   
+- aktuelle Impfquoten für Säuglinge, Kinder und Erwachsene
 - Datensatzdokumentation in deutscher Sprache   
 - Metadaten zur Datenpublikation   
 - Lizenz Datei mit der Nutzungslizenz des Datensatzes   
 
-Zentrales Datum des Datensatzes sind die aktuellen Impfquoten auf Basis der Daten der KV-Impfsurveillance. Diese sind im Hauptverzeichnis unter `KVIS_Impfquoten_Kinder.tsv` und `KVIS_Impfquoten_HPV.tsv` abrufbar.
+Zentrales Datum des Datensatzes sind die aktuellen Impfquoten auf Basis der Daten der KV-Impfsurveillance. Diese sind im Hauptverzeichnis unter `KVIS_Impfquoten_Kinder.tsv`, `KVIS_Impfquoten_HPV.tsv` und `KVIS_Impfquoten_Erwachsene.tsv` abrufbar.
 
 > [KVIS_Impfquoten_Kinder.tsv](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/KVIS_Impfquoten_Kinder.tsv)    
 > [KVIS_Impfquoten_Kinder.xlsx](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/KVIS_Impfquoten_Kinder.xlsx)    
     
 > [KVIS_Impfquoten_HPV.tsv](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/KVIS_Impfquoten_HPV.tsv)    
 > [KVIS_Impfquoten_HPV.xlsx](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/KVIS_Impfquoten_HPV.xlsx)    
+
+> [KVIS_Impfquoten_Erwachsene.tsv](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/KVIS_Impfquoten_Erwachsene.tsv)    
+> [KVIS_Impfquoten_Erwachsene.xlsx](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/KVIS_Impfquoten_Erwachsene.xlsx)  
   
 Die Fortschreibung der Daten erfolgt in der Regel jährlich.  
 
@@ -186,6 +189,33 @@ Die Datei [KVIS_Impfquoten_HPV.tsv](https://github.com/robert-koch-institut/Inan
 
 <!-- DATA_SCHEMA_SPECIFICATION_END -->
 
+
+
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "KVIS_Impfquoten_Erwachsene", "lang": "de"} -->
+
+Die Datei [KVIS_Impfquoten_Erwachsene.tsv](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/KVIS_Impfquoten_Erwachsene.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_KVIS_Impfquoten_Erwachsene.json](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/Metadaten/schemas/tableschema_KVIS_Impfquoten_Erwachsene.json) hinterlegt:
+> [tableschema_KVIS_Impfquoten_Erwachsene.json](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/Metadaten/schemas/tableschema_KVIS_Impfquoten_Erwachsene.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
+| Variable                 | Typ     | Ausprägungen                                                                                                                                                  | Beschreibung                                                                                                                                                                                                       |
+|:-------------------------|:--------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Berichtszeitraum         | string  |                                                                                                                                                               | Je nach Impfung und Zielgruppe ist der Berichtszeitraum entweder die Saison (z.B. `2023/24`), das Jahr des Schwangerschaftsbeginns (z.B. `2022`) oder das letzte Quartal des Beobachtungszeitraums (z.B.`I/2024`). |
+| Impfung                  | string  | Werte: `Influenza`, `Pneumokokken`, `Pertussis`                                                                                                               | Zielkrankheiten der eingesetzten Impfstoffe                                                                                                                                                                        |
+| Zielgruppe               | string  | Werte: `Schwangere`, `Personen ab 60 Jahren`, `Personen mit Grunderkrankung`                                                                                  | Art der Impfempfehlung                                                                                                                                                                                             |
+| Impfstatus               | string  | Werte: `1 Dosis`                                                                                                                                              | Ausprägung des Impfstatus                                                                                                                                                                                          |
+| Altersgruppe             | string  | Werte: `Gesamt`, `15-19`, `20-24`, `25-29`, `30-34`, `35-39`, `18-29`, …                                                                                      | Alter, bis zu dem die Impfung in Anspruch genommen wurde                                                                                                                                                           |
+| Bundesland_Name          | string  | Werte: `Baden-Württemberg`, `Bayern`, `Berlin`, `Brandenburg`, `Bremen`, `Hamburg`, `Hessen`, …                                                               | Name des Bundeslandes des zugeordneten Landkreises                                                                                                                                                                 |
+| Bundesland_short         | string  | Werte: `BB`, `BE`, `BW`, `BY`, `HB`, `HE`, `HH`, …                                                                                                            | Codes des Bundeslandes des zugeordneten Landkreises                                                                                                                                                                |
+| KV_Region_Name           | string  | Werte: `Baden-Württemberg`, `Bayern`, `Berlin`, `Brandenburg`, `Bremen`, `Hamburg`, `Hessen`, …                                                               | Name der KV-Region des zugeordneten Landkreises                                                                                                                                                                    |
+| KV_Region_short          | string  | Werte: `BB`, `BE`, `BW`, `BY`, `HB`, `HE`, `HH`, …                                                                                                            | Kürzel der KV-Region des zugeordneten Landkreises                                                                                                                                                                  |
+| Landkreis_Name           | string  | Werte: `LK Ahrweiler`, `LK Aichach-Friedberg`, `LK Alb-Donau-Kreis`, `LK Altenburger Land`, `LK Altenkirchen`, `LK Altmarkkreis Salzwedel`, `LK Altötting`, … | Name des Landkreises                                                                                                                                                                                               |
+| Regionalschluessel_Kreis | integer | Werte: `01001`, `01002`, `01003`, `01004`, `01051`, `01053`, `01054`, …                                                                                       | ID des Landkreises nach dem amtlichen Gemeindeschlüssel (AGS)                                                                                                                                                      |
+| Bevoelkerung_Gewicht     | number  | Werte: `≥1`                                                                                                                                                   | Größe der Bevölkerung im jeweiligen Stratum (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten))                                                                                                        |
+| Impfquote                | number  | Werte: `0` - `100`                                                                                                                                            | Anteil der geimpften Personen (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten))                                                                                                                      |
+
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
 
 ### Metadaten  
 

@@ -5,6 +5,15 @@
   "homepage": "https://doi.org/10.5281/zenodo.10221305",
   "resources": [
     {
+      "name": "kvis_impfquoten_erwachsene",
+      "type": "table",
+      "path": "KVIS_Impfquoten_Erwachsene.tsv",
+      "scheme": "file",
+      "format": "tsv",
+      "mediatype": "text/csv",
+      "schema": "Metadaten/schemas/tableschema_KVIS_Impfquoten_Erwachsene.json"
+    },
+    {
       "name": "kvis_impfquoten_hpv",
       "type": "table",
       "path": "KVIS_Impfquoten_HPV.tsv",
