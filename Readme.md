@@ -7,7 +7,7 @@ Nordufer 20
 
 <br>
 
-[**Thorsten Rieck**](https://orcid.org/0000-0002-8799-8744)&#0185;, **Marcel Feig**&sup2;, [**Lisa Branke**]()&sup1;, [**Annika Steffen**](https://orcid.org/0000-0003-4072-9245)&sup1;  
+[**Thorsten Rieck**](https://orcid.org/0000-0002-8799-8744)&#0185;, **Marcel Feig**&sup2;, **Lisa Branke**&sup1;, [**Annika Steffen**](https://orcid.org/0000-0003-4072-9245)&sup1;  
 
 &emsp;&sup1; [Robert Koch Institute](https://www.rki.de) | [Fachgebiet 33 | Impfprävention](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG33/FG33_node.html)   
 &emsp;&sup2; [Robert Koch Institute](https://www.rki.de) | [Fachgebiet IT 4 | Softwarearchitektur und -entwicklung](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/IT4/it4_node.html)  
@@ -16,7 +16,7 @@ Nordufer 20
 ---
 
 **Zitieren**  
-Rieck T, Feig M, Branke L und Steffen A (**2024**) Inanspruchnahme von Routineimpfungen in Deutschland – Ergebnisse aus der KV-Impfsurveillance, Berlin: Zenodo. DOI: [10.5281/zenodo.14274544](http://doi.org/10.5281/zenodo.14274544).  
+Rieck T, Feig M, Branke L und Steffen A (**2024**): Inanspruchnahme von Routineimpfungen in Deutschland – Ergebnisse aus der KV-Impfsurveillance, Berlin: Zenodo. DOI: [10.5281/zenodo.14274544](http://doi.org/10.5281/zenodo.14274544).  
 
    
 ## Einleitung  
