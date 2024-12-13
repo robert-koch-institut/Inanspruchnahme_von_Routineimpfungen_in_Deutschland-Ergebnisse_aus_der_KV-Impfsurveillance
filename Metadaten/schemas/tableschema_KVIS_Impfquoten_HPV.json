@@ -56,7 +56,11 @@
     {
       "name": "Altersgruppe",
       "type": "integer",
-      "description": "TODO: Beschreibung hinzufügen"
+      "description": "Alter, bis zu dem die Impfung in Anspruch genommen wurde",
+      "constraints": {
+          "minimum": 1,
+          "maximum": 18
+        }
     },
     {
       "name": "Bundesland_Name",
@@ -394,6 +398,7 @@
           "LK Saalfeld-Rudolstadt",
           "LK Saarlouis",
           "LK Saar-Pfalz-Kreis",
+          "LK Saarpfalz-Kreis",
           "LK Sächsische Schweiz-Osterzgebirge",
           "LK Salzlandkreis",
           "LK Sankt Wendel",

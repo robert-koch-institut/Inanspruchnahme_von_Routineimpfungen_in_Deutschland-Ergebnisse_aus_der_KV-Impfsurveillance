@@ -172,6 +172,9 @@
       "name": "Landkreis_Name",
       "type": "string",
       "description": "Name des Landkreises",
+      "missingValues": [
+        "NA"
+      ],
       "constraints": {
         "enum": [
           "LK Ahrweiler",
@@ -584,6 +587,9 @@
       "name": "Regionalschluessel_Kreis",
       "type": "integer",
       "description": "ID des Landkreises nach dem amtlichen Gemeindeschlüssel (AGS)",
+      "missingValues": [
+        "NA"
+      ],
       "constraints": {
         "enum": [
           "01001",
