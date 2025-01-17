@@ -7,7 +7,7 @@ Nordufer 20
 
 <br>
 
-[**Thorsten Rieck**](https://orcid.org/0000-0002-8799-8744)&#0185;, **Marcel Feig**&sup2;, [**Lisa Branke**]()&sup1;, [**Annika Steffen**](https://orcid.org/0000-0003-4072-9245)&sup1;  
+[**Thorsten Rieck**](https://orcid.org/0000-0002-8799-8744)&#0185;, **Marcel Feig**&sup2;, **Lisa Branke**&sup1;, [**Annika Steffen**](https://orcid.org/0000-0003-4072-9245)&sup1;  
 
 &emsp;&sup1; [Robert Koch Institute](https://www.rki.de) | [Fachgebiet 33 | Impfprävention](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG33/FG33_node.html)   
 &emsp;&sup2; [Robert Koch Institute](https://www.rki.de) | [Fachgebiet IT 4 | Softwarearchitektur und -entwicklung](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/IT4/it4_node.html)  
@@ -16,7 +16,7 @@ Nordufer 20
 ---
 
 **Zitieren**  
-Rieck T, Feig M, Branke L und Steffen A (**2024**) Inanspruchnahme von Routineimpfungen in Deutschland – Ergebnisse aus der KV-Impfsurveillance, Berlin: Zenodo. DOI: [10.5281/zenodo.14274544](http://doi.org/10.5281/zenodo.14274544).  
+Rieck T, Feig M, Branke L und Steffen A (**2024**): Inanspruchnahme von Routineimpfungen in Deutschland – Ergebnisse aus der KV-Impfsurveillance, Berlin: Zenodo. DOI: [10.5281/zenodo.14274544](http://doi.org/10.5281/zenodo.14274544).  
 
    
 ## Einleitung  
@@ -199,7 +199,7 @@ Die Datei [KVIS_Impfquoten_Erwachsene.tsv](https://github.com/robert-koch-instit
 <!-- DATA_SCHEMA_TABLE_START -->
 | Variable                 | Typ     | Ausprägungen                                                                                                                                                                          | Beschreibung                                                                                                                                                                                                       |
 |:-------------------------|:--------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Berichtszeitraum         | string  |                                                                                                                                                                                       | Je nach Impfung und Zielgruppe ist der Berichtszeitraum entweder die Saison (z.B. `2023/24`), das Jahr des Schwangerschaftsbeginns (z.B. `2022`) oder das letzte Quartal des Beobachtungszeitraums (z.B.`I/2024`). |
+| Berichtszeitraum         | string  | Format: `YYYY`, `YYYY/YY`, `I/YYYY`                                                                                                                                                                                        | Je nach Impfung und Zielgruppe ist der Berichtszeitraum entweder die Saison (z.B. `2023/24`), das Jahr des Schwangerschaftsbeginns (z.B. `2022`) oder das letzte Quartal des Beobachtungszeitraums (z.B.`I/2024`). |
 | Impfung                  | string  | Werte: `Influenza`, `Pneumokokken`, `Pertussis`                                                                                                                                       | Zielkrankheiten der eingesetzten Impfstoffe                                                                                                                                                                        |
 | Zielgruppe               | string  | Werte: `Schwangere`, `Personen ab 60 Jahren`, `Personen mit Grunderkrankung`                                                                                                          | Art der Impfempfehlung                                                                                                                                                                                             |
 | Impfstatus               | string  | Werte: `1 Dosis`                                                                                                                                                                      | Ausprägung des Impfstatus                                                                                                                                                                                          |
