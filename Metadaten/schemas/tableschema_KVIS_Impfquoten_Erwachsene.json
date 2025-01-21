@@ -1,9 +1,9 @@
 {
   "fields": [
     {
-      "name": "Berichtszeitraum",
+      "name": "Berichtszeitpunkt",
       "type": "string",
-      "description": "Je nach Impfung und Zielgruppe ist der Berichtszeitraum entweder die Saison (z.B. `2023/24`), das Jahr des Schwangerschaftsbeginns (z.B. `2022`) oder das letzte Quartal des Beobachtungszeitraums (z.B.`I/2024`)."
+      "description": "Je nach Impfung und Zielgruppe ist der Berichtszeitpunkt entweder die Saison (z.B. `2023/24`), das Jahr des Schwangerschaftsbeginns (z.B. `2022`) oder das letzte Quartal des Beobachtungszeitraums (z.B.`I/2024`)."
     },
     {
       "name": "Impfung",
@@ -42,15 +42,10 @@
     {
       "name": "Altersgruppe",
       "type": "string",
-      "description": "Alter, bis zu dem die Impfung in Anspruch genommen wurde",
+      "description": "Alter zum Berichtszeitpunkt in verschiedenen Gruppen (Gesamtwert über alle Altersgruppen; 5-Jahresaltersgruppen bei Schwangeren und der Pneumokokken-Standardimpfung, 10-Jahresaltersgruppen bei anderen Erwachsenenimpfungen)",
       "constraints": {
         "enum": [
           "Gesamt",
-          "15-19",
-          "20-24",
-          "25-29",
-          "30-34",
-          "35-39",
           "18-29",
           "30-39",
           "40-49",
@@ -58,6 +53,11 @@
           "60-69",
           "70-79",
           "80+",
+          "15-19",
+          "20-24",
+          "25-29",
+          "30-34",
+          "35-39",
           "60-64",
           "65-69",
           "70-74"
@@ -402,7 +402,7 @@
           "LK Saale-Orla-Kreis",
           "LK Saalfeld-Rudolstadt",
           "LK Saarlouis",
-          "LK Saar-Pfalz-Kreis",
+          "LK Saarpfalz-Kreis",
           "LK Sächsische Schweiz-Osterzgebirge",
           "LK Salzlandkreis",
           "LK Sankt Wendel",
@@ -578,7 +578,6 @@
           "SK Wuppertal",
           "SK Würzburg",
           "SK Zweibrücken",
-          "SR Aachen",
           "Städteregion Aachen"
         ]
       }

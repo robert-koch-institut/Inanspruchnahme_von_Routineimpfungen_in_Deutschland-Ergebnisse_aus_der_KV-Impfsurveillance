@@ -1,4 +1,4 @@
-Berichtszeitraum	Impfung	Zielgruppe	Impfstatus	Altersgruppe	Bundesland_Name	Bundesland_short	KV_Region_Name	KV_Region_short	Landkreis_Name	Regionalschluessel_Kreis	Bevoelkerung_Gewicht	Impfquote
+Berichtszeitpunkt	Impfung	Zielgruppe	Impfstatus	Altersgruppe	Bundesland_Name	Bundesland_short	KV_Region_Name	KV_Region_short	Landkreis_Name	Regionalschluessel_Kreis	Bevoelkerung_Gewicht	Impfquote
 2014/15	Influenza	Schwangere	1 Dosis	15-19	Baden-Württemberg	BW	Baden-Württemberg	BW	NA	NA	1235	5.9919
 2014/15	Influenza	Schwangere	1 Dosis	20-24	Baden-Württemberg	BW	Baden-Württemberg	BW	NA	NA	8347	5.73859
 2014/15	Influenza	Schwangere	1 Dosis	25-29	Baden-Württemberg	BW	Baden-Württemberg	BW	NA	NA	24616	6.17485
