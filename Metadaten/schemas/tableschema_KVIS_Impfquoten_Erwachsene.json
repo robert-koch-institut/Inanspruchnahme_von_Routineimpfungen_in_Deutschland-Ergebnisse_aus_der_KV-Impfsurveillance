@@ -3,7 +3,8 @@
     {
       "name": "Berichtszeitpunkt",
       "type": "string",
-      "description": "Je nach Impfung und Zielgruppe ist der Berichtszeitpunkt entweder die Saison (z.B. `2023/24`), das Jahr des Schwangerschaftsbeginns (z.B. `2022`) oder das letzte Quartal des Beobachtungszeitraums (z.B.`I/2024`)."
+      "description": "Je nach Impfung und Zielgruppe ist der Berichtszeitpunkt entweder die Saison (z.B. `2023/24`), das Jahr des Schwangerschaftsbeginns (z.B. `2022`) oder das letzte Quartal des Beobachtungszeitraums (z.B.`I/2024`).",
+      "example": "2023/24, 2022, I/2024"
     },
     {
       "name": "Impfung",

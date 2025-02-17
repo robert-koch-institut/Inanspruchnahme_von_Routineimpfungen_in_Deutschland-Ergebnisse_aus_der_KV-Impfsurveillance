@@ -58,9 +58,9 @@
       "type": "integer",
       "description": "Alter, bis zu dem die Impfung in Anspruch genommen wurde",
       "constraints": {
-          "minimum": 1,
-          "maximum": 18
-        }
+        "minimum": 1,
+        "maximum": 18
+      }
     },
     {
       "name": "Bundesland_Name",
