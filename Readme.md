@@ -17,7 +17,7 @@ Rieck, T., Feig, M., Branke, L., & Steffen, A. (2025). Inanspruchnahme von Routi
 
 Dem Robert Koch-Institut (RKI) obliegt die Aufgabe, Daten zur Inanspruchnahme von Schutzimpfungen in der Bevölkerung in Deutschland zu erheben, aufzubereiten und national wie international zu berichten.  
 Die wichtigste Datenquelle zur Berechnung von Impfquoten stellen die vertragsärztlichen Abrechnungsdaten dar, die von den Kassenärztlichen Vereinigungen (KVen) im Rahmen der „KV-Impfsurveillance“ (KVIS) an das RKI übermittelt werden. Begonnen als Gemeinschaftsprojekt mit den KVen im Jahr 2004, ist die KVIS seit dem Jahr 2020 im Infektionsschutzgesetz (IfSG) gesetzlich verankert ([§13 (5) IfSG](https://www.gesetze-im-internet.de/ifsg/__13.html)).  
-Neben der jährlichen Berichterstattung zu aktuellen Impfquoten im [Epidemiologischen Bulletin](https://www.rki.de/DE/Content/Infekt/EpidBull/epid_bull_node.html), ergänzt [VacMap](https://www.rki.de/vacmap) als interaktives Dashboard die Kommunikation der Impfquoten in Deutschland und ermöglicht die Nachnutzung der Daten durch Akteure der Impfprävention. Anhand der Darstellung der Impfquoten nach Altersgruppen, im Zeitverlauf und auf regionaler Ebene können Defizite in der Umsetzung der Impfempfehlungen identifiziert und in der Folge zielgruppenspezifisch adressiert werden.
+Neben der jährlichen Berichterstattung zu aktuellen Impfquoten im [Epidemiologischen Bulletin](https://edoc.rki.de/handle/176904/45), ergänzt [VacMap](https://www.rki.de/vacmap) als interaktives Dashboard die Kommunikation der Impfquoten in Deutschland und ermöglicht die Nachnutzung der Daten durch Akteure der Impfprävention. Anhand der Darstellung der Impfquoten nach Altersgruppen, im Zeitverlauf und auf regionaler Ebene können Defizite in der Umsetzung der Impfempfehlungen identifiziert und in der Folge zielgruppenspezifisch adressiert werden.
 
 ## Informationen zum Datensatz und Entstehungskontext
 
@@ -30,8 +30,8 @@ Die KV-Impfsurveillance wurde im Jahr 2020 im Infektionsschutzgesetz (IfSG) gese
 
 ### Administrative und organisatorische Angaben
 
-Die KV-Impfsurveillance und das auf deren Ergebnissen basierende Dashboard VacMap werden vom [Fachgebiet 33 | Impfprävention](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG33/FG33_node.html) des RKIs betrieben. Inhaltliche Fragen bezüglich der Datenerhebung oder Datenauswertung können direkt an kv-impfsurveillance@rki.de, Fragen bezüglich der Visualisierung auf VacMap an vacmap@rki.de gestellt werden.  
-Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/MF4/mf4_node.html). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open-Data-Team des Fachgebiets MF4 unter <OpenData@rki.de> gerichtet werden.
+Die KV-Impfsurveillance und das auf deren Ergebnissen basierende Dashboard VacMap werden vom [Fachgebiet 33 | Impfprävention](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG33/fg33-impfpraevention-stiko-node.html) des RKIs betrieben. Inhaltliche Fragen bezüglich der Datenerhebung oder Datenauswertung können direkt an kv-impfsurveillance@rki.de, Fragen bezüglich der Visualisierung auf VacMap an vacmap@rki.de gestellt werden.  
+Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open-Data-Team des Fachgebiets MF4 unter <OpenData@rki.de> gerichtet werden.
 
 
 ## Datenerhebung und Datenauswertung
