@@ -14,7 +14,9 @@
         "enum": [
           "Influenza",
           "Pneumokokken",
-          "Pertussis"
+          "Pertussis",
+          "FSME",
+          "Herpes zoster"
         ]
       }
     },
@@ -36,7 +38,10 @@
       "description": "Ausprägung des Impfstatus",
       "constraints": {
         "enum": [
-          "1 Dosis"
+          "1 Dosis",
+          "1. Dosis",
+          "2. Dosis",
+          "vollständig"
         ]
       }
     },
@@ -47,6 +52,10 @@
       "constraints": {
         "enum": [
           "Gesamt",
+          "1-4",
+          "5-9",
+          "10-14",
+          "15-17",
           "18-29",
           "30-39",
           "40-49",
