@@ -2,11 +2,18 @@ Datensatzdokumentation
 
 # Inanspruchnahme von Routineimpfungen in Deutschland – Ergebnisse aus der KV-Impfsurveillance
 
-[Robert Koch-Institut](https://www.rki.de) | [RKI](https://www.wikidata.org/wiki/Q679041)  
+[**Robert Koch-Institut | RKI**](https://rki.de)  
 Nordufer 20  
-13353 Berlin
+13353 Berlin  
 
-[Thorsten Rieck](https://orcid.org/0000-0002-8799-8744), Marcel Feig, Lisa Branke, [Annika Steffen](https://orcid.org/0000-0003-4072-9245)
+<br> 
+
+**Beitragende**   
+[Thorsten Rieck](https://orcid.org/0000-0002-8799-8744)&sup1;, [Matthäus Lottes](https://orcid.org/0000-0003-3467-7645)&sup1;, Marcel Feig&sup1;, Lisa Branke&sup1;, [Annika Steffen](https://orcid.org/0000-0003-4072-9245)&sup1;
+
+
+&emsp;&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de) | [Fachgebiet 33](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG33/fg33-impfpraevention-stiko-node.html)   
+
 
 **Zitieren**  
 <!-- CITATION_START: {"citation_style": "apa"} -->
