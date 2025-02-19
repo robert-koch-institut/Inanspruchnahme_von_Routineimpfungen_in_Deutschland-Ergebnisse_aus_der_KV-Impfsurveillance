@@ -10,7 +10,7 @@ Nordufer 20
 
 **Zitieren**  
 <!-- CITATION_START: {"citation_style": "apa"} -->
-Rieck, & T., Feig, M., Branke, L., Steffen, A. (2024). Inanspruchnahme von Routineimpfungen in Deutschland - Ergebnisse aus der KV-Impfsurveillance [Data set]. Zenodo. https://doi.org/10.5281/zenodo.14727156
+Rieck, T., Feig, M., Branke, L., & Steffen, A. (2025). Inanspruchnahme von Routineimpfungen in Deutschland - Ergebnisse aus der KV-Impfsurveillance [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.14727156](https://doi.org/10.5281/zenodo.14727156)
 <!-- CITATION_END -->
 
 ## Einleitung
@@ -244,28 +244,46 @@ Die Datei [KVIS_Impfquoten_Erwachsene.tsv](https://github.com/robert-koch-instit
 
 Die Daten sind im Datensatz als .xlsx-Datei und Tab-separierte .tsv-Datei enthalten. Der verwendete Zeichensatz der .tsv-Datei ist UTF-8.
 
-### Metadaten
 
-Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadatenordner hinterlegt:
+<!-- FOOTER_START: {"lang": "de"} -->
 
-> [Metadaten/](file:///C:\\Metadaten\\)
 
-Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](file:///C:\\Metadaten\\zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/representation nachlesbar.
 
-> [Metadaten/zenodo.json](file:///C:\\Metadaten\\zenodo.json)
+### Metadaten  
 
-## Hinweise zur Nachnutzung der Daten
+Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadatenordner hinterlegt:  
 
-Offene Forschungsdaten des RKI werden auf [GitHub.com](http://GitHub.com/), [Zenodo.org](http://Zenodo.org/) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:
+> [Metadaten/](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/tree/main/Metadaten/) 
 
-  - https://github.com/robert-koch-institut
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.
+ 
+> [Metadaten/zenodo.json](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/Metadaten/zenodo.json)  
 
-  - https://zenodo.org/communities/robertkochinstitut
+In der zenodo.json ist neben dem Publikationsdatum (`"publication_date"`) auch der Datenstand in folgendem Format enthalten (Beispiel):  
 
-  - https://edoc.rki.de/
+```
+  "dates": [
+    {
+      "start": "2023-09-11T15:00:21+02:00",
+      "end": "2023-09-11T15:00:21+02:00",
+      "type": "Collected",
+      "description": "Date when the Dataset was created"
+    }
+  ],
+```    
 
-### Lizenz
+## Hinweise zur Nachnutzung der Daten  
 
-Der Datensatz “Inanspruchnahme von Routineimpfungen in Deutschland – Ergebnisse aus der KV-Impfsurveillance” ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).
+Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:  
 
-Die in den Datensätzen bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate der Datensätze zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](file:///C:\\LICENSE) bzw. [LIZENZ](file:///C:\\LIZENZ) Datei der Datensätze.
+- https://zenodo.org/communities/robertkochinstitut  
+- https://github.com/robert-koch-institut  
+- https://gitlab.opencode.de/robert-koch-institut  
+- https://edoc.rki.de/  
+ 
+### Lizenz  
+
+Der Datensatz "Inanspruchnahme von Routineimpfungen in Deutschland - Ergebnisse aus der KV-Impfsurveillance" ist lizenziert unter  der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
+
+Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/LIZENZ) Datei des Datensatzes.  
+<!-- FOOTER_END -->
