@@ -28,7 +28,8 @@
         "enum": [
           "Schwangere",
           "Personen ab 60 Jahren",
-          "Personen mit Grunderkrankung"
+          "Personen mit Grunderkrankung",
+          "Personen, die in FSME-Risikogebieten wohnen"
         ]
       }
     },
@@ -1009,6 +1010,9 @@
       "name": "Bevoelkerung_Gewicht",
       "type": "number",
       "description": "Größe der Bevölkerung im jeweiligen Stratum (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten))",
+      "missingValues": [
+        "NA"
+      ],
       "constraints": {
         "minimum": 1
       }
@@ -1017,6 +1021,9 @@
       "name": "Impfquote",
       "type": "number",
       "description": "Anteil der geimpften Personen (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten))",
+      "missingValues": [
+        "NA"
+      ],
       "constraints": {
         "minimum": 0,
         "maximum": 100
