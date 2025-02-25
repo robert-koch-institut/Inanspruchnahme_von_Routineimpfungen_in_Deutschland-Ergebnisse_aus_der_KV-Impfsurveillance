@@ -14,7 +14,9 @@
         "enum": [
           "Influenza",
           "Pneumokokken",
-          "Pertussis"
+          "Pertussis",
+          "FSME",
+          "Herpes zoster"
         ]
       }
     },
@@ -26,7 +28,8 @@
         "enum": [
           "Schwangere",
           "Personen ab 60 Jahren",
-          "Personen mit Grunderkrankung"
+          "Personen mit Grunderkrankung",
+          "Personen, die in FSME-Risikogebieten wohnen"
         ]
       }
     },
@@ -36,7 +39,10 @@
       "description": "Ausprägung des Impfstatus",
       "constraints": {
         "enum": [
-          "1 Dosis"
+          "1 Dosis",
+          "1. Dosis",
+          "2. Dosis",
+          "vollständig"
         ]
       }
     },
@@ -47,6 +53,10 @@
       "constraints": {
         "enum": [
           "Gesamt",
+          "1-4",
+          "5-9",
+          "10-14",
+          "15-17",
           "18-29",
           "30-39",
           "40-49",
@@ -1000,6 +1010,9 @@
       "name": "Bevoelkerung_Gewicht",
       "type": "number",
       "description": "Größe der Bevölkerung im jeweiligen Stratum (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten))",
+      "missingValues": [
+        "NA"
+      ],
       "constraints": {
         "minimum": 1
       }
@@ -1008,6 +1021,9 @@
       "name": "Impfquote",
       "type": "number",
       "description": "Anteil der geimpften Personen (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten))",
+      "missingValues": [
+        "NA"
+      ],
       "constraints": {
         "minimum": 0,
         "maximum": 100
