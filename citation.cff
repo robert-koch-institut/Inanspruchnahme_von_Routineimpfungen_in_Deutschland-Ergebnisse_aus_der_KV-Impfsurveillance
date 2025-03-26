@@ -27,7 +27,7 @@ abstract: >-
   nach Altersgruppen, im Zeitverlauf und auf regionaler Ebene können Defizite in
   der Umsetzung der Impfempfehlungen identifiziert und in der Folge
   zielgruppenspezifisch adressiert werden.
-date-released: '2025-01-23'
+date-released: '2025-02-25'
 keywords:
   - Impfung
   - Vakzination
@@ -85,13 +85,17 @@ message: Cite me!
 url: >-
   https://robert-koch-institut.github.io/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance
 license: CC-BY-4.0
-doi: 10.5281/zenodo.14727156
-version: '2025-01-21T10:40:00+01:00'
+doi: 10.5281/zenodo.14923216
+version: '2025-02-25T11:56:53+01:00'
 authors:
   - family-names: Rieck
     given-names: Thorsten
     affiliation: Robert Koch-Institut
     orcid: 0000-0002-8799-8744
+  - family-names: Lottes
+    given-names: Matthäus
+    affiliation: Robert Koch-Institut
+    orcid: https://orcid.org/0000-0003-3467-7645
   - family-names: Feig
     given-names: Marcel
     affiliation: Robert Koch-Institut

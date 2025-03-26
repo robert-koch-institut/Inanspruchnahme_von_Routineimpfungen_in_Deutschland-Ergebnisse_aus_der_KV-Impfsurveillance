@@ -8,6 +8,11 @@
       "orcid": "0000-0002-8799-8744"
     },
     {
+      "name": "Lottes, Matthäus",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0000-0003-3467-7645"
+    },
+    {
       "name": "Feig, Marcel",
       "affiliation": "Robert Koch-Institut"
     },
@@ -76,8 +81,8 @@
     "Humanes Papillomavirus",
     "Human Papillomavirus"
   ],
-  "publication_date": "2025-01-23",
-  "version": "2025-01-21",
+  "publication_date": "2025-02-25",
+  "version": "2025-02-25",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "CC-BY-4.0",
@@ -90,8 +95,8 @@
   "subjects": [],
   "dates": [
     {
-      "start": "2025-01-21T10:40:00+01:00",
-      "end": "2025-01-21T10:40:00+01:00",
+      "start": "2025-02-25T11:56:53+01:00",
+      "end": "2025-02-25T11:56:53+01:00",
       "type": "Created",
       "description": "Date when the published data was created"
     }
