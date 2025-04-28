@@ -18,7 +18,8 @@
     },
     {
       "name": "Branke, Lisa",
-      "affiliation": "Robert Koch-Institut"
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0009-0002-7636-0400"
     },
     {
       "name": "Steffen, Annika",
@@ -79,10 +80,23 @@
     "Deutschland",
     "Germany",
     "Humanes Papillomavirus",
-    "Human Papillomavirus"
+    "Human Papillomavirus",
+    "D014645",
+    "D014645",
+    "D006562",
+    "D006562",
+    "D010567",
+    "D010567",
+    "D011247",
+    "D011247",
+    "D004675",
+    "D004675",
+    "D004675",
+    "D000086382",
+    "D000086402"
   ],
-  "publication_date": "2025-02-25",
-  "version": "2025-02-25",
+  "publication_date": "2025-04-28",
+  "version": "2025-04-28",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "CC-BY-4.0",
@@ -95,8 +109,8 @@
   "subjects": [],
   "dates": [
     {
-      "start": "2025-02-25T11:56:53+01:00",
-      "end": "2025-02-25T11:56:53+01:00",
+      "start": "2025-04-28T11:47:28+02:00",
+      "end": "2025-04-28T11:47:28+02:00",
       "type": "Created",
       "description": "Date when the published data was created"
     }
@@ -106,16 +120,6 @@
       "relation": "isSupplementTo",
       "identifier": "https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance",
       "resource_type": "dataset"
-    },
-    {
-      "relation": "isDocumentedBy",
-      "identifier": "https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/Readme.md",
-      "resource_type": "publication-report"
-    },
-    {
-      "relation": "isDocumentedBy",
-      "identifier": "https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance/blob/main/[Dokumentation]_Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance.pdf",
-      "resource_type": "publication-report"
     },
     {
       "relation": "isDescribedBy",
