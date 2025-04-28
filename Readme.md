@@ -7,7 +7,7 @@ Dokumentation
 <br> 
 <br> 
 
-[**Thorsten Rieck**](0000-0002-8799-8744)&sup1;, [**Matthäus Lottes**](0000-0003-3467-7645)&sup1;, **Marcel Feig**&sup1;, **Lisa Branke**&sup1;, & [**Annika Steffen**](0000-0003-4072-9245)&sup1;
+[**Thorsten Rieck**](https://orcid.org/0000-0002-8799-8744)&sup1;, [**Matthäus Lottes**](https://orcid.org/0000-0003-3467-7645)&sup1;, **Marcel Feig**&sup1;, [**Lisa Branke**](https://orcid.org/0009-0002-7636-0400)&sup1;, & [**Annika Steffen**](https://orcid.org/0000-0003-4072-9245)&sup1;
 
 
 
@@ -15,6 +15,7 @@ Dokumentation
 
 **Zitieren**  
 Rieck, T., Lottes, M., Feig, M., Branke, L., & Steffen, A. (2025). Inanspruchnahme von Routineimpfungen in Deutschland - Ergebnisse aus der KV-Impfsurveillance [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.14923216](https://doi.org/10.5281/zenodo.14923216)
+
 
 
 <!-- HEADER_END -->
