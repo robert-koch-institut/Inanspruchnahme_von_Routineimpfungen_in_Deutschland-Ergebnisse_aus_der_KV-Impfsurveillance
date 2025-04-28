@@ -1,24 +1,26 @@
-Datensatzdokumentation
+<!-- HEADER_START: {"lang": "de"} -->
 
-# Inanspruchnahme von Routineimpfungen in Deutschland – Ergebnisse aus der KV-Impfsurveillance
 
-[**Robert Koch-Institut | RKI**](https://rki.de)  
-Nordufer 20  
-13353 Berlin  
+Dokumentation
+# Inanspruchnahme von Routineimpfungen in Deutschland - Ergebnisse aus der KV-Impfsurveillance
 
 <br> 
+<br> 
 
-**Beitragende**   
-[Thorsten Rieck](https://orcid.org/0000-0002-8799-8744)&sup1;, [Matthäus Lottes](https://orcid.org/0000-0003-3467-7645)&sup1;, Marcel Feig&sup1;, Lisa Branke&sup1;, [Annika Steffen](https://orcid.org/0000-0003-4072-9245)&sup1;
+[**Thorsten Rieck**](https://orcid.org/0000-0002-8799-8744)&sup1;, [**Matthäus Lottes**](https://orcid.org/0000-0003-3467-7645)&sup1;, **Marcel Feig**&sup1;, [**Lisa Branke**](https://orcid.org/0009-0002-7636-0400)&sup1;, & [**Annika Steffen**](https://orcid.org/0000-0003-4072-9245)&sup1;
 
 
-&emsp;&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de) | [Fachgebiet 33](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG33/fg33-impfpraevention-stiko-node.html)   
 
+&emsp;&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de/) | [Fachgebiet 33](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG33/fg33-impfpraevention-stiko-node.html)
 
 **Zitieren**  
-<!-- CITATION_START: {"citation_style": "apa"} -->
 Rieck, T., Lottes, M., Feig, M., Branke, L., & Steffen, A. (2025). Inanspruchnahme von Routineimpfungen in Deutschland - Ergebnisse aus der KV-Impfsurveillance [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.14923216](https://doi.org/10.5281/zenodo.14923216)
-<!-- CITATION_END -->
+
+
+
+<!-- HEADER_END -->
+
+
 
 ## Einleitung
 
@@ -79,7 +81,8 @@ Gemäß diesen Kriterien umfasst die Studienpopulation Personen, die sowohl im Z
 | `Pneumokokken Indikationsimpfung, ≥18 Jahre` | 6-Monatszeitraum sechs Jahre vor Berichtszeitpunkt | letztes Quartal des Beobachtungs-zeitraums | *Berichtszeitpunkt I/2024:* <br>K1: Jan-Jun 2018 <br>K2: Jan-März 2024 |   
 | `Pertussis in der Schwangerschaft` |  |  | *Definition einer Schwangerenkohorte:* <br>Abrechnung der Gebührenordnungsposition für die ärztliche Betreuung in der Schwangerschaft (01770) in drei oder vier aufeinanderfolgenden Quartalen. Zur Abgrenzung gegenüber weiteren Schwangerschaften musste jeweils vor der Schwangerschaftsbetreuung von drei oder vier Quartalen sowie im Anschluss mindestens ein Quartal ohne Abrechnung der entsprechenden Gebührenordnungsposition vorliegen. Die Zuordnung der Schwangerschaft zu einem Kalenderjahr erfolgte auf Basis des ersten Schwangerschaftsquartals |   
 | `FSME` | 1-Jahreszeitraum vor Beobachtungszeitraum | 6 Monate angrenzend an Beobachtungszeitraum | *Berichtszeitpunkt Dezember 2022:* <br>K1: Jan-Dez 2017 <br>K2: Jan-Jun 2023 |   
-| `Herpes zoster` | 1-Jahreszeitraum vor Beobachtungszeitraum | letztes Quartal des Beobachtungszeitraums | *Berichtszeitpunkt I/2024:* <br>K1: Jan-Dez 2018 <br>K2: Jan-März 2024  |   
+| `Herpes zoster (Standardimpfung bei Personen ≥60 Jahre, Indikationsimpfung bei Personen mit Grunderkrankung ≥50 Jahre)` | 1-Jahreszeitraum vor Beobachtungszeitraum | letztes Quartal des Beobachtungszeitraums | *Berichtszeitpunkt I/2024:* <br>K1: Jan-Dez 2018 <br>K2: Jan-März 2024  |   
+| `COVID-19 (Standardimpfung bei Personen ≥60 Jahre, Indikationsimpfung bei Personen mit Grunderkrankung ≥18 Jahre)` | I.-II. Quartal | letztes Quartal des Beobachtungszeitraums | *Berichtssaison 2023/2024:*<br>K1: Jan-Jun 2023<br>K2: Jan-März 2024 |   
 
 \* Zeitfenster der dokumentierten Kontakte im vertragsärztlichen Bereich, die vor bzw. zum Beginn des Beobachtungszeitraums liegen und sich an den Beobachtungszeitraum anschließen.
 
@@ -109,6 +112,7 @@ Neben der Inanspruchnahme der Routineimpfungen zu unterschiedlichen Alterszeitpu
 | FSME                                                                             | vollständig     | Grundimmunisiert und ggf. zeitgerechte Auffrischimpfung**                                                                                                                                                                                                                                                                       |
 Herpes zoster                                                                             | 1. Dosis     | 1 oder mehr Impfstoffdosen verabreicht ab 1.1.2019 gelten als 1. Dosis                                                                                                                                                                                                                                                                        |
 | Herpes zoster                                                                             | 2. Dosis     | 2 oder mehr Impfstoffdosen verabreicht ab 1.1.2019 gelten als 2. Dosis |
+| COVID-19                                                                                                    | 1 Dosis     | 1 oder mehr Impfstoffdosen gelten als 1 Dosis                                                                                  
 
 \*zu Rotavirus: weitere Erklärung in Rieck *et al.* (2020)
 
@@ -231,7 +235,7 @@ Die Datei [KVIS_Impfquoten_Erwachsene.tsv](https://github.com/robert-koch-instit
 | Variable                 | Typ     | Ausprägungen                                                                                                                                                                          | Beschreibung                                                                                                                                                                                                                   |
 |:-------------------------|:--------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Berichtszeitpunkt        | string  | Beispiele: `2023/24`, `2022`, `I/2024`                                                                                                                                                | Je nach Impfung und Zielgruppe ist der Berichtszeitpunkt entweder die Saison (z.B. `2023/24`), das Jahr des Schwangerschaftsbeginns (z.B. `2022`) oder das letzte Quartal des Beobachtungszeitraums (z.B.`I/2024`).            |
-| Impfung                  | string  | Werte: `Influenza`, `Pneumokokken`, `Pertussis`, `FSME`, `Herpes zoster`                                                                                                              | Zielkrankheiten der eingesetzten Impfstoffe                                                                                                                                                                                    |
+| Impfung                  | string  | Werte: `Influenza`, `Pneumokokken`, `Pertussis`, `FSME`, `Herpes zoster`, `COVID-19`                                                                                                  | Zielkrankheiten der eingesetzten Impfstoffe                                                                                                                                                                                    |
 | Zielgruppe               | string  | Werte: `Schwangere`, `Personen ab 60 Jahren`, `Personen mit Grunderkrankung`, `Personen, die in FSME-Risikogebieten wohnen`                                                           | Art der Impfempfehlung                                                                                                                                                                                                         |
 | Impfstatus               | string  | Werte: `1 Dosis`, `1. Dosis`, `2. Dosis`, `vollständig`                                                                                                                               | Ausprägung des Impfstatus                                                                                                                                                                                                      |
 | Altersgruppe             | string  | Werte: `Gesamt`, `1-4`, `5-9`, `10-14`, `15-17`, `18-29`, `30-39`, …                                                                                                                  | Alter zum Berichtszeitpunkt in verschiedenen Gruppen (Gesamtwert über alle Altersgruppen; 5-Jahresaltersgruppen bei Schwangeren und der Pneumokokken-Standardimpfung, 10-Jahresaltersgruppen bei anderen Erwachsenenimpfungen) |
@@ -251,7 +255,6 @@ Die Datei [KVIS_Impfquoten_Erwachsene.tsv](https://github.com/robert-koch-instit
 ### Formatierung
 
 Die Daten sind im Datensatz als .xlsx-Datei und Tab-separierte .tsv-Datei enthalten. Der verwendete Zeichensatz der .tsv-Datei ist UTF-8.
-
 
 <!-- FOOTER_START: {"lang": "de"} -->
 
