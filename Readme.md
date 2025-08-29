@@ -19,7 +19,7 @@ Dokumentation
 <br> 
 
 **Zitieren**  
-Rieck, T., Lottes, M., Feig, M., Branke, L., & Steffen, A. (2025). Inanspruchnahme von Routineimpfungen in Deutschland - Ergebnisse aus der KV-Impfsurveillance [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.15295455](https://doi.org/10.5281/zenodo.15295455)
+Rieck, T., Lottes, M., Feig, M., Branke, L., & Steffen, A. (2025). Inanspruchnahme von Routineimpfungen in Deutschland - Ergebnisse aus der KV-Impfsurveillance [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.15301387](https://doi.org/10.5281/zenodo.15301387)
 
 <br>
 
