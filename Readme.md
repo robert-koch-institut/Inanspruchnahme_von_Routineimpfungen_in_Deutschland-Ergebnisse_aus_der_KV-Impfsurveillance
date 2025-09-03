@@ -1,22 +1,44 @@
 <!-- HEADER_START: {"lang": "de"} -->
 
 
-Dokumentation
+Dokumentation  
 # Inanspruchnahme von Routineimpfungen in Deutschland - Ergebnisse aus der KV-Impfsurveillance
 
+<br> 
 <br> 
 <br> 
 
 [**Thorsten Rieck**](https://orcid.org/0000-0002-8799-8744)&sup1;, [**Matthäus Lottes**](https://orcid.org/0000-0003-3467-7645)&sup1;, **Marcel Feig**&sup1;, [**Lisa Branke**](https://orcid.org/0009-0002-7636-0400)&sup1;, & [**Annika Steffen**](https://orcid.org/0000-0003-4072-9245)&sup1;
 
+<br> 
 
 
-&emsp;&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de/) | [Fachgebiet 33](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG33/fg33-impfpraevention-stiko-node.html)
+
+&emsp;&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de/) | [Fachgebiet 33](https://www.rki.de/fg33)
+
+<br> 
 
 **Zitieren**  
 Rieck, T., Lottes, M., Feig, M., Branke, L., & Steffen, A. (2025). Inanspruchnahme von Routineimpfungen in Deutschland - Ergebnisse aus der KV-Impfsurveillance [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.15301387](https://doi.org/10.5281/zenodo.15301387)
 
+<br>
 
+
+**Zusammenfassung**    
+Im Datensatz "Inanspruchnahme von Routineimpfungen in Deutschland – Ergebnisse aus der KV-Impfsurveillance" des Robert Koch-Instituts werden die Impfquoten in der gesetzlich krankenversicherten Bevölkerung Deutschlands bereitgestellt. Nach dem Infektionsschutzgesetz (IfSG) übermitteln alle 17 kassenärztlichen Vereinigungen seit 2020 quartalsweise die pseudonymisierten vertragsärztlichen Abrechnungsdaten. Daraus werden Impfquoten auf kleinräumiger Ebene, in Altersgruppen sowie in Indikationsgruppen berechnet. Die Ergebnisse werden im Epidemiologischen Bulletin sowie über das interaktive Dashboard VacMap kommuniziert. Damit bildet der Datensatz eine Grundlage, um die Umsetzung der Impfempfehlungen systematisch zu erfassen und evidenzbasierte Maßnahmen zur Verbesserung der Impfprävention abzuleiten.
+
+<br>
+
+**Inhaltsverzeichnis** 
+<!-- TOC_START: {"heading_depth": 2} -->
+  - [Einleitung](#einleitung)
+  - [Informationen zum Datensatz und Entstehungskontext](#informationen-zum-datensatz-und-entstehungskontext)
+  - [Datenerhebung und Datenauswertung](#datenerhebung-und-datenauswertung)
+  - [Aufbau und Inhalt der Datensätze](#aufbau-und-inhalt-der-datensätze)
+  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)
+<!-- TOC_END -->
+
+<br>
 
 <!-- HEADER_END -->
 
@@ -39,8 +61,8 @@ Die KV-Impfsurveillance wurde im Jahr 2020 im Infektionsschutzgesetz (IfSG) gese
 
 ### Administrative und organisatorische Angaben
 
-Die KV-Impfsurveillance und das auf deren Ergebnissen basierende Dashboard VacMap werden vom [Fachgebiet 33 | Impfprävention](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG33/fg33-impfpraevention-stiko-node.html) des RKIs betrieben. Inhaltliche Fragen bezüglich der Datenerhebung oder Datenauswertung können direkt an kv-impfsurveillance@rki.de, Fragen bezüglich der Visualisierung auf VacMap an vacmap@rki.de gestellt werden.  
-Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open-Data-Team des Fachgebiets MF4 unter <OpenData@rki.de> gerichtet werden.
+Die KV-Impfsurveillance und das auf deren Ergebnissen basierende Dashboard VacMap werden vom [Fachgebiet 33 | Impfprävention](https://www.rki.de/fg33) des RKIs betrieben. Inhaltliche Fragen bezüglich der Datenerhebung oder Datenauswertung können direkt an kv-impfsurveillance@rki.de, Fragen bezüglich der Visualisierung auf VacMap an vacmap@rki.de gestellt werden.  
+Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/mf4). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open-Data-Team des Fachgebiets MF4 unter <OpenData@rki.de> gerichtet werden.
 
 
 ## Datenerhebung und Datenauswertung
