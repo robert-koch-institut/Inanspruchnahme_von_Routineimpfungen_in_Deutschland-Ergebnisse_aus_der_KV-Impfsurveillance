@@ -12,7 +12,8 @@
       "description": "Zielkrankheiten der eingesetzten Impfstoffe",
       "constraints": {
         "enum": [
-          "Diphtherie, Tetanus, Pertussis",
+          "Diphtherie-Tetanus-Pertussis (Grundimmunisierung)",
+          "Diphtherie-Tetanus-Pertussis (Auffrischimpfung)",
           "Diphtherie",
           "Tetanus",
           "Pertussis",
@@ -25,6 +26,7 @@
           "Varizellen",
           "Meningokokken C",
           "Pneumokokken",
+          "Respiratorische Synzytial-Viren (RSV)",
           "Rotavirus"
         ]
       }
@@ -51,7 +53,10 @@
           "1. Dosis",
           "2. Dosis",
           "3. Dosis",
-          "vollständig"
+          "vollständig",
+          "Auffrischimpfung 5-6 Jahre",
+          "Auffrischimpfung 9-16 Jahre",
+          "Beide Auffrischimpfungen"
         ]
       }
     },
@@ -62,12 +67,26 @@
       "constraints": {
         "enum": [
           "32 Wochen",
+          "12 Monate",
           "15 Monate",
           "24 Monate",
           "36 Monate",
           "48 Monate",
           "60 Monate",
-          "72 Monate"
+          "72 Monate",
+          "Geburtsmonate Apr-Sep",
+          "5 Jahre",
+          "6 Jahre",
+          "7 Jahre",
+          "8 Jahre",
+          "9 Jahre",
+          "10 Jahre",
+          "11 Jahre",
+          "12 Jahre",
+          "13 Jahre",
+          "14 Jahre",
+          "15 Jahre",
+          "16 Jahre"
         ]
       }
     },
