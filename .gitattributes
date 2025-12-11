@@ -1,0 +1,2 @@
+KVIS_Impfquoten_Kinder.tsv filter=lfs diff=lfs merge=lfs -text
+KVIS_Impfquoten_Kinder.xlsx filter=lfs diff=lfs merge=lfs -text

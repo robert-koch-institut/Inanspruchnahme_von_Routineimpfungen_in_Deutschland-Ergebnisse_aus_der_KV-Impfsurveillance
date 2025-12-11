@@ -4,30 +4,18 @@ title: >-
   Inanspruchnahme von Routineimpfungen in Deutschland - Ergebnisse aus der
   KV-Impfsurveillance
 abstract: >-
-  Dem Robert Koch-Institut (RKI) obliegt die Aufgabe, Daten zur Inanspruchnahme
-  von Schutzimpfungen in der Bevölkerung in Deutschland zu erheben,
-  aufzubereiten und national wie international zu berichten.
-
-
-  Die wichtigste Datenquelle zur Berechnung von Impfquoten stellen die
-  vertragsärztlichen Abrechnungsdaten dar, die von den Kassenärztlichen
-  Vereinigungen (KVen) im Rahmen der „KV-Impfsurveillance“ (KVIS) an das RKI
-  übermittelt werden. Begonnen als Gemeinschaftsprojekt mit den KVen im Jahr
-  2004, ist die KVIS seit dem Jahr 2020 im Infektionsschutzgesetz (IfSG)
-  gesetzlich verankert (§13 (5) IfSG
-  (https://www.gesetze-im-internet.de/ifsg/__13.html)).
-
-
-  Neben der jährlichen Berichterstattung zu aktuellen Impfquoten im
-  Epidemiologischen Bulletin
-  (https://www.rki.de/DE/Content/Infekt/EpidBull/epid_bull_node.html), ergänzt
-  VacMap (https://www.rki.de/vacmap) als interaktives Dashboard die
-  Kommunikation der Impfquoten in Deutschland und ermöglicht die Nachnutzung der
-  Daten durch Akteure der Impfprävention. Anhand der Darstellung der Impfquoten
-  nach Altersgruppen, im Zeitverlauf und auf regionaler Ebene können Defizite in
-  der Umsetzung der Impfempfehlungen identifiziert und in der Folge
-  zielgruppenspezifisch adressiert werden.
-date-released: '2025-04-29'
+  Im Datensatz &quot;Inanspruchnahme von Routineimpfungen in Deutschland –
+  Ergebnisse aus der KV-Impfsurveillance&quot; des Robert Koch-Instituts werden
+  die Impfquoten in der gesetzlich krankenversicherten Bevölkerung Deutschlands
+  bereitgestellt. Nach dem Infektionsschutzgesetz (IfSG) übermitteln alle 17
+  kassenärztlichen Vereinigungen seit 2020 quartalsweise die pseudonymisierten
+  vertragsärztlichen Abrechnungsdaten. Daraus werden Impfquoten auf
+  kleinräumiger Ebene, in Altersgruppen sowie in Indikationsgruppen berechnet.
+  Die Ergebnisse werden im Epidemiologischen Bulletin sowie über das interaktive
+  Dashboard VacMap kommuniziert. Damit bildet der Datensatz eine Grundlage, um
+  die Umsetzung der Impfempfehlungen systematisch zu erfassen und
+  evidenzbasierte Maßnahmen zur Verbesserung der Impfprävention abzuleiten.
+date-released: '2025-12-11'
 keywords:
   - Impfung
   - Vakzination
@@ -94,29 +82,32 @@ keywords:
   - D004675
   - D000086382
   - D000086402
+  - Human Respiratory Syncytial Virus
+  - RSV
+  - Humanes Respiratorisches Synzytial-Virus
 message: Cite me!
 url: >-
   https://robert-koch-institut.github.io/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance
 license: CC-BY-4.0
-doi: 10.5281/zenodo.15301387
-version: '2025-04-29T09:18:08+02:00'
+doi: 10.5281/zenodo.17830702
+version: '2025-12-11T11:24:21+01:00'
 authors:
   - family-names: Rieck
     given-names: Thorsten
-    affiliation: Robert Koch-Institut
+    affiliation: Robert Koch-Institut | Fachgebiet 33
     orcid: 0000-0002-8799-8744
   - family-names: Lottes
     given-names: Matthäus
-    affiliation: Robert Koch-Institut
+    affiliation: Robert Koch-Institut | Fachgebiet 33
     orcid: 0000-0003-3467-7645
   - family-names: Feig
     given-names: Marcel
-    affiliation: Robert Koch-Institut
+    affiliation: Robert Koch-Institut | Fachgebiet MF 2
   - family-names: Branke
     given-names: Lisa
-    affiliation: Robert Koch-Institut
+    affiliation: Robert Koch-Institut | Fachgebiet 33
     orcid: 0009-0002-7636-0400
   - family-names: Steffen
     given-names: Annika
-    affiliation: Robert Koch-Institut
+    affiliation: Robert Koch-Institut | Fachgebiet 33
     orcid: 0000-0003-4072-9245
