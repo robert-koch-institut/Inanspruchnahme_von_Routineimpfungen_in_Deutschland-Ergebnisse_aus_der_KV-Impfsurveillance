@@ -98,8 +98,8 @@
     "RSV",
     "Humanes Respiratorisches Synzytial-Virus"
   ],
-  "publication_date": "2025-12-11",
-  "version": "2025-12-11",
+  "publication_date": "2026-01-09",
+  "version": "2026-01-09",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "CC-BY-4.0",
@@ -112,8 +112,8 @@
   "subjects": [],
   "dates": [
     {
-      "start": "2025-12-11T11:24:21+01:00",
-      "end": "2025-12-11T11:24:21+01:00",
+      "start": "2026-01-09T13:23:18+01:00",
+      "end": "2026-01-09T13:23:18+01:00",
       "type": "Created",
       "description": "Date when the published data was created"
     }
