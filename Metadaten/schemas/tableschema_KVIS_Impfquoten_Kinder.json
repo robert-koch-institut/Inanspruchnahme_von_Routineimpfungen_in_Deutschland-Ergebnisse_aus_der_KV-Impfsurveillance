@@ -4,12 +4,18 @@
       "name": "Geburtsjahr",
       "type": "date",
       "description": "Geburtsjahr der Kohorte im ISO 8601 Format",
-      "format": "%Y"
+      "format": "%Y",
+      "missingValues": [
+        ""
+      ]
     },
     {
       "name": "Impfung",
       "type": "string",
       "description": "Zielkrankheiten der eingesetzten Impfstoffe",
+      "missingValues": [
+        ""
+      ],
       "constraints": {
         "enum": [
           "Diphtherie-Tetanus-Pertussis (Grundimmunisierung)",
@@ -35,6 +41,9 @@
       "name": "STIKO_Empfehlung",
       "type": "string",
       "description": "Art der Impfempfehlung",
+      "missingValues": [
+        ""
+      ],
       "constraints": {
         "enum": [
           "Standard",
@@ -47,6 +56,9 @@
       "name": "Impfstatus",
       "type": "string",
       "description": "Ausprägung des Impfstatus",
+      "missingValues": [
+        ""
+      ],
       "constraints": {
         "enum": [
           "1 Dosis",
@@ -64,6 +76,9 @@
       "name": "Altersgruppe",
       "type": "string",
       "description": "Alter, bis zu dem die Impfung in Anspruch genommen wurde",
+      "missingValues": [
+        ""
+      ],
       "constraints": {
         "enum": [
           "32 Wochen",
@@ -94,6 +109,9 @@
       "name": "Bundesland_Name",
       "type": "string",
       "description": "Name des Bundeslandes des zugeordneten Landkreises",
+      "missingValues": [
+        ""
+      ],
       "constraints": {
         "enum": [
           "Baden-Württemberg",
@@ -119,6 +137,9 @@
       "name": "Bundesland_short",
       "type": "string",
       "description": "Codes des Bundeslandes des zugeordneten Landkreises",
+      "missingValues": [
+        ""
+      ],
       "constraints": {
         "enum": [
           "BB",
@@ -144,6 +165,9 @@
       "name": "KV_Region_Name",
       "type": "string",
       "description": "Name der KV-Region des zugeordneten Landkreises",
+      "missingValues": [
+        ""
+      ],
       "constraints": {
         "enum": [
           "Baden-Württemberg",
@@ -171,6 +195,9 @@
       "name": "KV_Region_short",
       "type": "string",
       "description": "Kürzel der KV-Region des zugeordneten Landkreises",
+      "missingValues": [
+        ""
+      ],
       "constraints": {
         "enum": [
           "BB",
@@ -198,6 +225,9 @@
       "name": "Landkreis_Name",
       "type": "string",
       "description": "Name des Landkreises",
+      "missingValues": [
+        ""
+      ],
       "constraints": {
         "enum": [
           "LK Ahrweiler",
@@ -607,6 +637,9 @@
       "name": "Regionalschluessel_Kreis",
       "type": "integer",
       "description": "ID des Landkreises nach dem amtlichen Gemeindeschlüssel (AGS)",
+      "missingValues": [
+        ""
+      ],
       "constraints": {
         "enum": [
           "01001",
@@ -1016,7 +1049,10 @@
     {
       "name": "Bevoelkerung_Gewicht",
       "type": "integer",
-      "description": "Größe der Bevölkerung im jeweiligen Stratum (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten))",
+      "description": "Größe der Bevölkerung im jeweiligen Stratum (siehe [Berechnung der Impfquoten](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance#berechnung-der-impfquoten))",
+      "missingValues": [
+        ""
+      ],
       "constraints": {
         "minimum": 1
       }
@@ -1024,7 +1060,10 @@
     {
       "name": "Impfquote",
       "type": "number",
-      "description": "Anteil der geimpften Personen (siehe [Berechnung der Impfquoten](#Berechnung-der-Impfquoten))",
+      "description": "Anteil der geimpften Personen (siehe [Berechnung der Impfquoten](https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance#berechnung-der-impfquoten))",
+      "missingValues": [
+        ""
+      ],
       "constraints": {
         "minimum": 0,
         "maximum": 100
